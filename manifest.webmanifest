@@ -1,0 +1,17 @@
+{
+  "name": "Scrutiny Academy NEET Flashcards",
+  "short_name": "NEET Cards",
+  "description": "Active recall NEET UG flashcards for Physics, Chemistry, and Biology by Scrutiny Academy",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0B192C",
+  "theme_color": "#0B192C",
+  "icons": [
+    {
+      "src": "assets/logo/logo.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

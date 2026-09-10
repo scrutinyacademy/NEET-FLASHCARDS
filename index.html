@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+  <title>Scrutiny Academy NEET Flashcards | Physics Chemistry Biology</title>
+  <meta name="description" content="Chapter-wise NEET UG flashcards for Class 11 and Class 12 Physics, Chemistry and Biology with active recall, revision tracking and high-yield practice.">
+  <meta name="keywords" content="NEET UG, Flashcards, Scrutiny Academy, Biology, Physics, Chemistry, Active Recall, Spaced Repetition, NCERT, Class 11, Class 12">
+  <meta name="author" content="Scrutiny Academy">
+  <meta name="theme-color" content="#0B192C">
+
+  <!-- OpenGraph Metadata -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Scrutiny Academy NEET Flashcards | Physics Chemistry Biology">
+  <meta property="og:description" content="Chapter-wise NEET UG flashcards for Class 11 and Class 12 Physics, Chemistry and Biology with active recall and spaced repetition.">
+  <meta property="og:image" content="assets/logo/logo.svg">
+  <meta property="og:site_name" content="Scrutiny Academy">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Scrutiny Academy NEET Flashcards">
+  <meta name="twitter:description" content="Master NEET one flashcard at a time. Chapter-wise active recall for Class 11 & 12.">
+  <meta name="twitter:image" content="assets/logo/logo.svg">
+
+  <!-- Favicon & PWA Manifest -->
+  <link rel="icon" type="image/svg+xml" href="assets/logo/logo.svg">
+  <link rel="apple-touch-icon" href="assets/logo/logo.svg">
+  <link rel="manifest" href="manifest.webmanifest">
+
+  <!-- Google Fonts: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Watermark Background -->
+  <div class="watermark-overlay" aria-hidden="true"></div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="site-header" id="site-header">
+    <div class="header-container">
+      <div class="header-left">
+        <a href="#home" class="brand-link" aria-label="Scrutiny Academy Home">
+          <img src="assets/logo/logo.svg" alt="Scrutiny Academy Logo" class="brand-logo" width="46" height="46">
+          <div class="brand-text">
+            <span class="brand-name">SCRUTINY ACADEMY</span>
+            <span class="brand-tagline">LEARN • UNDERSTAND • PRACTICE • MASTER</span>
+          </div>
+        </a>
+      </div>
+
+      <nav class="header-nav" id="header-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active" data-nav="home">Home</a></li>
+          <li class="nav-dropdown">
+            <a href="#class11" class="nav-link" data-nav="class11">Class 11</a>
+          </li>
+          <li class="nav-dropdown">
+            <a href="#class12" class="nav-link" data-nav="class12">Class 12</a>
+          </li>
+          <li><a href="#physics" class="nav-link" data-nav="physics">Physics</a></li>
+          <li><a href="#chemistry" class="nav-link" data-nav="chemistry">Chemistry</a></li>
+          <li><a href="#biology" class="nav-link" data-nav="biology">Biology</a></li>
+          <li><a href="#bookmarks" class="nav-link" data-nav="bookmarks">Bookmarks <span class="nav-badge" id="nav-bookmarks-count">0</span></a></li>
+          <li><a href="#weak-cards" class="nav-link" data-nav="weak-cards">Weak Cards <span class="nav-badge alert" id="nav-weak-count">0</span></a></li>
+          <li><a href="#revision" class="nav-link" data-nav="revision">Revision <span class="nav-badge primary" id="nav-due-count">0</span></a></li>
+          <li><a href="#progress" class="nav-link" data-nav="progress">Progress</a></li>
+          <li><a href="#about" class="nav-link" data-nav="about">About</a></li>
+          <li><a href="#support" class="nav-link" data-nav="support">Support</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="action-btn search-toggle-btn" id="search-toggle-btn" aria-label="Toggle Universal Search">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        </button>
+
+        <button type="button" class="action-btn theme-toggle-btn" id="theme-toggle-btn" aria-label="Toggle Dark/Light Mode">
+          <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+
+        <button type="button" class="hamburger-btn" id="hamburger-btn" aria-label="Open Navigation Menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Search Bar Tray -->
+    <div class="search-tray" id="search-tray" hidden>
+      <div class="search-tray-inner">
+        <div class="search-input-wrapper">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="search" id="universal-search-input" placeholder="Search questions, concepts, formulas, reactions, chapters, or tags..." autocomplete="off">
+          <button type="button" class="search-clear-btn" id="search-clear-btn" aria-label="Clear Search" hidden>&times;</button>
+        </div>
+        <div class="search-filters-bar">
+          <span class="filter-label">Filter:</span>
+          <select id="search-subject-filter">
+            <option value="all">All Subjects</option>
+            <option value="biology">Biology</option>
+            <option value="physics">Physics</option>
+            <option value="chemistry">Chemistry</option>
+          </select>
+          <select id="search-class-filter">
+            <option value="all">All Classes</option>
+            <option value="11">Class 11</option>
+            <option value="12">Class 12</option>
+          </select>
+          <select id="search-category-filter">
+            <option value="all">All Categories</option>
+            <option value="Core Concept">Core Concepts</option>
+            <option value="Formula / Equation">Formulas & Equations</option>
+            <option value="Fact Recall">Fact Recall</option>
+            <option value="NEET Trap">NEET Traps</option>
+            <option value="Numerical Step">Numerical Steps</option>
+            <option value="Table / Comparison">Tables & Comparisons</option>
+            <option value="Assertion / Statement">Assertion / Statement</option>
+          </select>
+        </div>
+      </div>
+      <div class="search-results-tray" id="search-results-tray"></div>
+    </div>
+  </header>
+
+  <!-- Main View Container -->
+  <main class="main-content" id="main-content">
+
+    <!-- HOME VIEW -->
+    <section class="view-section active" id="view-home">
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="hero-container">
+          <div class="hero-badge-wrap">
+            <span class="hero-badge">
+              <span class="pulse-dot"></span>
+              Official NEET UG Active Recall Architecture
+            </span>
+            <span class="syllabus-pill" id="syllabus-version-badge">NEET UG 2026 Aligned</span>
+          </div>
+
+          <h1 class="hero-headline">
+            MASTER NEET<br>
+            <span class="text-gradient">ONE FLASHCARD</span> AT A TIME.
+          </h1>
+
+          <p class="hero-subheading">
+            Physics • Chemistry • Biology &nbsp;|&nbsp; Class 11 + Class 12<br>
+            Chapter-wise active recall, NCERT precision, and spaced repetition engineered for NEET UG aspirants.
+          </p>
+
+          <div class="hero-cta-group">
+            <button type="button" class="btn btn-primary btn-lg" id="hero-start-btn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              START FLASHCARDS
+            </button>
+            <button type="button" class="btn btn-secondary btn-lg" id="hero-explore-btn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+              EXPLORE SUBJECTS
+            </button>
+          </div>
+
+          <p class="hero-target-note">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            Target: 180 high-yield flashcards per chapter. Real published counts verified live.
+          </p>
+
+          <!-- Scientific Motifs Banner -->
+          <div class="scientific-motifs-grid" aria-hidden="true">
+            <div class="motif-card">
+              <span class="motif-icon">🧬</span>
+              <span class="motif-text">DNA & Molecular Genetics</span>
+            </div>
+            <div class="motif-card">
+              <span class="motif-icon">⚛️</span>
+              <span class="motif-text">Atomic Structure & Orbitals</span>
+            </div>
+            <div class="motif-card">
+              <span class="motif-icon">📐</span>
+              <span class="motif-text">Vectors & Dimensional Analysis</span>
+            </div>
+            <div class="motif-card">
+              <span class="motif-icon">🔬</span>
+              <span class="motif-text">Cellular Ultrastructure</span>
+            </div>
+            <div class="motif-card">
+              <span class="motif-icon">⚗️</span>
+              <span class="motif-text">Reaction Stoichiometry</span>
+            </div>
+            <div class="motif-card">
+              <span class="motif-icon">⚡</span>
+              <span class="motif-text">Electrodynamics & Optics</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Live Platform Counters -->
+      <section class="stats-overview-section">
+        <div class="content-container">
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-icon-wrap bg-blue-subtle">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+              </div>
+              <div class="stat-info">
+                <span class="stat-num" id="global-published-count">55</span>
+                <span class="stat-label">Published Flashcards</span>
+                <span class="stat-subtext">Verified NEET UG content</span>
+              </div>
+            </div>
+
+            <div class="stat-card">
+              <div class="stat-icon-wrap bg-emerald-subtle">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+              </div>
+              <div class="stat-info">
+                <span class="stat-num" id="global-chapters-active">3 Active</span>
+                <span class="stat-label">Chapters with Content</span>
+                <span class="stat-subtext">83 syllabus chapters mapped</span>
+              </div>
+            </div>
+
+            <div class="stat-card">
+              <div class="stat-icon-wrap bg-cyan-subtle">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0891B2" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+              </div>
+              <div class="stat-info">
+                <span class="stat-num" id="user-studied-count">0</span>
+                <span class="stat-label">Cards Studied</span>
+                <span class="stat-subtext">Across your learning sessions</span>
+              </div>
+            </div>
+
+            <div class="stat-card">
+              <div class="stat-icon-wrap bg-purple-subtle">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              </div>
+              <div class="stat-info">
+                <span class="stat-num" id="user-mastered-count">0</span>
+                <span class="stat-label">Cards Mastered</span>
+                <span class="stat-subtext">Rated 'Good' or 'Easy'</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Continue Studying / Quick Start Card -->
+      <section class="continue-studying-section">
+        <div class="content-container">
+          <div class="continue-card" id="continue-card-container">
+            <!-- Dynamically injected: either "Start your first flashcard session" or "Continue Studying" -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Class & Subject Navigation Section -->
+      <section class="explore-section" id="explore-subjects-anchor">
+        <div class="content-container">
+          <div class="section-header">
+            <div>
+              <h2 class="section-title">Explore by Class & Subject</h2>
+              <p class="section-subtitle">Select your target class and subject to open the chapter-wise active recall dashboard.</p>
+            </div>
+            <div class="class-toggle-pills" role="tablist">
+              <button type="button" class="class-pill active" data-class="class11" role="tab" aria-selected="true">Class 11</button>
+              <button type="button" class="class-pill" data-class="class12" role="tab" aria-selected="false">Class 12</button>
+            </div>
+          </div>
+
+          <!-- Subject Selection Cards -->
+          <div class="subject-selection-grid">
+            <div class="subject-card bio-card" data-subject="biology">
+              <div class="subject-card-header">
+                <span class="subject-badge bio">BIOLOGY</span>
+                <span class="subject-icon">🌿</span>
+              </div>
+              <h3 class="subject-card-title">NEET Biology</h3>
+              <p class="subject-card-desc">Botany & Zoology covering cell biology, plant physiology, genetics, human physiology, and ecology with NCERT-strict precision.</p>
+              <div class="subject-card-stats">
+                <div class="sub-stat">
+                  <span class="sub-stat-val" id="bio-published-cards">25</span>
+                  <span class="sub-stat-lbl">Published Cards</span>
+                </div>
+                <div class="sub-stat">
+                  <span class="sub-stat-val" id="bio-chapters-count">32 Chapters</span>
+                  <span class="sub-stat-lbl">Total Curriculum</span>
+                </div>
+              </div>
+              <button type="button" class="btn btn-outline btn-block open-subject-btn" data-subject="biology">
+                View Biology Chapters &rarr;
+              </button>
+            </div>
+
+            <div class="subject-card phy-card" data-subject="physics">
+              <div class="subject-card-header">
+                <span class="subject-badge phy">PHYSICS</span>
+                <span class="subject-icon">⚡</span>
+              </div>
+              <h3 class="subject-card-title">NEET Physics</h3>
+              <p class="subject-card-desc">Mechanics, electrodynamics, optics, thermodynamics, and modern physics with emphasis on formula conditions, units, and trap analysis.</p>
+              <div class="subject-card-stats">
+                <div class="sub-stat">
+                  <span class="sub-stat-val" id="phy-published-cards">15</span>
+                  <span class="sub-stat-lbl">Published Cards</span>
+                </div>
+                <div class="sub-stat">
+                  <span class="sub-stat-val" id="phy-chapters-count">30 Chapters</span>
+                  <span class="sub-stat-lbl">Inc. Experimental</span>
+                </div>
+              </div>
+              <button type="button" class="btn btn-outline btn-block open-subject-btn" data-subject="physics">
+                View Physics Chapters &rarr;
+              </button>
+            </div>
+
+            <div class="subject-card che-card" data-subject="chemistry">
+              <div class="subject-card-header">
+                <span class="subject-badge che">CHEMISTRY</span>
+                <span class="subject-icon">🧪</span>
+              </div>
+              <h3 class="subject-card-title">NEET Chemistry</h3>
+              <p class="subject-card-desc">Physical stoichiometry, organic mechanisms, inorganic periodicity, and practical salt analysis mapped to current NEET specifications.</p>
+              <div class="subject-card-stats">
+                <div class="sub-stat">
+                  <span class="sub-stat-val" id="che-published-cards">15</span>
+                  <span class="sub-stat-lbl">Published Cards</span>
+                </div>
+                <div class="sub-stat">
+                  <span class="sub-stat-val" id="che-chapters-count">21 Chapters</span>
+                  <span class="sub-stat-lbl">Inc. Practical</span>
+                </div>
+              </div>
+              <button type="button" class="btn btn-outline btn-block open-subject-btn" data-subject="chemistry">
+                View Chemistry Chapters &rarr;
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Active / Sample Published Chapters Spotlight -->
+      <section class="spotlight-section">
+        <div class="content-container">
+          <div class="section-header">
+            <div>
+              <div class="section-tag">READY FOR ACTIVE RECALL</div>
+              <h2 class="section-title">Published NEET Chapters</h2>
+              <p class="section-subtitle">Real, high-yield flashcard decks published and ready to practice right now.</p>
+            </div>
+          </div>
+
+          <div class="chapter-grid" id="published-chapters-grid">
+            <!-- Injected by JavaScript -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Study Modes Showcase -->
+      <section class="modes-showcase-section">
+        <div class="content-container">
+          <div class="section-header text-center">
+            <h2 class="section-title">Flexible Study Modes for Every Stage</h2>
+            <p class="section-subtitle">Engineered to adapt to initial conceptual learning, exam-week cramming, and long-term retention.</p>
+          </div>
+
+          <div class="modes-grid">
+            <div class="mode-card">
+              <span class="mode-icon">📖</span>
+              <h3 class="mode-title">Normal Mode</h3>
+              <p class="mode-desc">Card-by-card sequential study through the chapter for comprehensive foundational review.</p>
+            </div>
+            <div class="mode-card">
+              <span class="mode-icon">⚡</span>
+              <h3 class="mode-title">Rapid Revision</h3>
+              <p class="mode-desc">Filters exclusively for high-yield summary cards, formulas, and NEET key takeaways.</p>
+            </div>
+            <div class="mode-card">
+              <span class="mode-icon">⚠️</span>
+              <h3 class="mode-title">Weak Cards</h3>
+              <p class="mode-desc">Automatically compiles every card rated 'Again' or 'Hard' so you can eradicate gaps.</p>
+            </div>
+            <div class="mode-card">
+              <span class="mode-icon">🔖</span>
+              <h3 class="mode-title">Bookmark Mode</h3>
+              <p class="mode-desc">Instant focus on the specific tricky questions you flagged for personal revision.</p>
+            </div>
+            <div class="mode-card">
+              <span class="mode-icon">🔀</span>
+              <h3 class="mode-title">Random Shuffle</h3>
+              <p class="mode-desc">Randomizes card sequences to break positional bias and simulate true exam uncertainty.</p>
+            </div>
+            <div class="mode-card">
+              <span class="mode-icon">⏰</span>
+              <h3 class="mode-title">Spaced Repetition</h3>
+              <p class="mode-desc">Automatically schedules card reviews at expanding intervals (1d, 3d, 7d) based on mastery.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Active Recall & NEET Traps Methodology -->
+      <section class="methodology-section">
+        <div class="content-container">
+          <div class="methodology-box">
+            <div class="methodology-content">
+              <div class="section-tag">THE SCRUTINY ACADEMY ADVANTAGE</div>
+              <h2 class="methodology-title">Why Flashcards Beat Passive Reading for NEET</h2>
+              <p>Re-reading NCERT chapters over and over creates an illusion of competence. Flashcards force <strong>Active Recall</strong>: stimulating memory during the learning process so neural pathways are strengthened.</p>
+              
+              <div class="benefits-list">
+                <div class="benefit-item">
+                  <span class="benefit-check">✓</span>
+                  <div>
+                    <strong>Common NEET Traps Highlighted:</strong>
+                    <span>Every card highlights tricky phrasing, unit conversions, and exceptions frequently targeted by NTA question setters.</span>
+                  </div>
+                </div>
+                <div class="benefit-item">
+                  <span class="benefit-check">✓</span>
+                  <div>
+                    <strong>Strictly Zero Fabrication:</strong>
+                    <span>Only real, syllabus-verified scientific data. No fake PYQs, no made-up statistics, and honest published card counters.</span>
+                  </div>
+                </div>
+                <div class="benefit-item">
+                  <span class="benefit-check">✓</span>
+                  <div>
+                    <strong>Target 180 Architecture:</strong>
+                    <span>Engineered for 180 comprehensive cards per chapter across 10 specialized pedagogical categories.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="methodology-preview" aria-hidden="true">
+              <div class="demo-card-preview">
+                <div class="demo-card-header">
+                  <span class="demo-badge">SAMPLE CARD</span>
+                  <span class="demo-cat">Core Concept</span>
+                </div>
+                <div class="demo-q">Which organelle contains its own circular DNA and 70S ribosomes?</div>
+                <div class="demo-divider"></div>
+                <div class="demo-ans">Mitochondria & Chloroplasts.</div>
+                <div class="demo-trap"><strong>NEET Trap:</strong> Mitochondrial DNA is circular (prokaryotic-like), NOT linear!</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- SUBJECT / CHAPTER DASHBOARD VIEW -->
+    <section class="view-section" id="view-subject">
+      <div class="content-container">
+        <div class="subject-dashboard-header">
+          <div class="breadcrumb">
+            <a href="#home" class="breadcrumb-link">Home</a>
+            <span class="breadcrumb-sep">/</span>
+            <span class="breadcrumb-current" id="subject-dash-breadcrumb">Physics</span>
+          </div>
+
+          <div class="subject-dash-title-row">
+            <div>
+              <h1 class="subject-dash-title" id="subject-dash-title">NEET Physics Flashcards</h1>
+              <p class="subject-dash-desc" id="subject-dash-desc">Chapter-wise active recall cards with target 180 cards per chapter.</p>
+            </div>
+
+            <!-- Class Selector Tabs inside Subject View -->
+            <div class="class-toggle-pills" id="subject-class-tabs" role="tablist">
+              <button type="button" class="class-pill active" data-class="11" role="tab">Class 11</button>
+              <button type="button" class="class-pill" data-class="12" role="tab">Class 12</button>
+            </div>
+          </div>
+
+          <!-- Subject Quick Stats -->
+          <div class="subject-meta-strip">
+            <div class="meta-item">
+              <span class="meta-lbl">Chapters Mapped:</span>
+              <strong id="subject-dash-total-chapters">15</strong>
+            </div>
+            <div class="meta-item">
+              <span class="meta-lbl">Published Cards:</span>
+              <strong id="subject-dash-published-cards">15 / 2,700</strong>
+            </div>
+            <div class="meta-item">
+              <span class="meta-lbl">Studied:</span>
+              <strong id="subject-dash-studied-cards">0</strong>
+            </div>
+            <div class="meta-item">
+              <span class="meta-lbl">Mastered:</span>
+              <strong id="subject-dash-mastered-cards">0</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chapters List Container -->
+        <div class="chapters-listing-section">
+          <div class="chapters-filter-bar">
+            <div class="filter-search-box">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+              <input type="text" id="chapter-search-filter" placeholder="Filter chapters in this subject...">
+            </div>
+            <div class="filter-radio-group">
+              <label><input type="radio" name="chapter-status-filter" value="all" checked> All Chapters</label>
+              <label><input type="radio" name="chapter-status-filter" value="published"> Published Only</label>
+            </div>
+          </div>
+
+          <div class="chapter-grid" id="subject-chapters-grid">
+            <!-- Populated dynamically via JS -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOKMARKS VIEW -->
+    <section class="view-section" id="view-bookmarks">
+      <div class="content-container">
+        <div class="section-header">
+          <div>
+            <div class="breadcrumb">
+              <a href="#home" class="breadcrumb-link">Home</a>
+              <span class="breadcrumb-sep">/</span>
+              <span class="breadcrumb-current">My Bookmarks</span>
+            </div>
+            <h1 class="section-title">Bookmarked Flashcards</h1>
+            <p class="section-subtitle">Review questions and concepts you have saved for focused revision.</p>
+          </div>
+
+          <div class="bookmarks-filter-controls">
+            <select id="bookmarks-subject-filter">
+              <option value="all">All Subjects</option>
+              <option value="biology">Biology</option>
+              <option value="physics">Physics</option>
+              <option value="chemistry">Chemistry</option>
+            </select>
+            <select id="bookmarks-class-filter">
+              <option value="all">All Classes</option>
+              <option value="11">Class 11</option>
+              <option value="12">Class 12</option>
+            </select>
+            <button type="button" class="btn btn-primary" id="study-all-bookmarks-btn" disabled>
+              Practice Bookmarks
+            </button>
+          </div>
+        </div>
+
+        <div class="bookmarks-list-container" id="bookmarks-list-container">
+          <!-- Populated dynamically -->
+        </div>
+      </div>
+    </section>
+
+    <!-- WEAK CARDS VIEW -->
+    <section class="view-section" id="view-weak-cards">
+      <div class="content-container">
+        <div class="section-header">
+          <div>
+            <div class="breadcrumb">
+              <a href="#home" class="breadcrumb-link">Home</a>
+              <span class="breadcrumb-sep">/</span>
+              <span class="breadcrumb-current">Weak Cards</span>
+            </div>
+            <h1 class="section-title">Weak Cards & Difficult Topics</h1>
+            <p class="section-subtitle">Cards you flagged with 'Again' or 'Hard'. Target these to eliminate exam pitfalls.</p>
+          </div>
+
+          <div>
+            <button type="button" class="btn btn-danger" id="practice-all-weak-btn" disabled>
+              Practice All Weak Cards
+            </button>
+          </div>
+        </div>
+
+        <div class="weak-summary-card" id="weak-summary-card">
+          <!-- Dynamic topics count -->
+        </div>
+
+        <div class="weak-cards-list-container" id="weak-cards-list-container">
+          <!-- Populated dynamically -->
+        </div>
+      </div>
+    </section>
+
+    <!-- REVISION DUE VIEW -->
+    <section class="view-section" id="view-revision">
+      <div class="content-container">
+        <div class="section-header">
+          <div>
+            <div class="breadcrumb">
+              <a href="#home" class="breadcrumb-link">Home</a>
+              <span class="breadcrumb-sep">/</span>
+              <span class="breadcrumb-current">Spaced Repetition</span>
+            </div>
+            <h1 class="section-title">Revision Dashboard</h1>
+            <p class="section-subtitle">Scientific spaced intervals: cards automatically scheduled to ensure maximum retention before NEET.</p>
+          </div>
+
+          <button type="button" class="btn btn-primary" id="start-due-revision-btn" disabled>
+            Start Revision Due Now
+          </button>
+        </div>
+
+        <div class="revision-tabs-header" role="tablist">
+          <button type="button" class="rev-tab active" data-rev="due" role="tab">Due Today (<span id="rev-due-count">0</span>)</button>
+          <button type="button" class="rev-tab" data-rev="overdue" role="tab">Overdue (<span id="rev-overdue-count">0</span>)</button>
+          <button type="button" class="rev-tab" data-rev="tomorrow" role="tab">Tomorrow (<span id="rev-tomorrow-count">0</span>)</button>
+          <button type="button" class="rev-tab" data-rev="week" role="tab">This Week (<span id="rev-week-count">0</span>)</button>
+        </div>
+
+        <div class="revision-cards-container" id="revision-cards-container">
+          <!-- Populated dynamically -->
+        </div>
+      </div>
+    </section>
+
+    <!-- STUDENT PROGRESS DASHBOARD VIEW -->
+    <section class="view-section" id="view-progress">
+      <div class="content-container">
+        <div class="section-header">
+          <div>
+            <div class="breadcrumb">
+              <a href="#home" class="breadcrumb-link">Home</a>
+              <span class="breadcrumb-sep">/</span>
+              <span class="breadcrumb-current">Analytics</span>
+            </div>
+            <h1 class="section-title">Student Learning Progress</h1>
+            <p class="section-subtitle">Real-time stats stored safely in your browser. No fabricated metrics.</p>
+          </div>
+
+          <button type="button" class="btn btn-secondary btn-sm" id="reset-progress-btn">
+            Reset Progress
+          </button>
+        </div>
+
+        <div class="progress-dashboard-grid">
+          <!-- Daily Goal Card with Progress Ring -->
+          <div class="progress-card daily-goal-widget">
+            <h3 class="widget-title">Daily Study Goal</h3>
+            <div class="goal-ring-wrapper">
+              <svg class="progress-ring" width="140" height="140">
+                <circle class="progress-ring-bg" stroke="var(--border-color)" stroke-width="10" fill="transparent" r="58" cx="70" cy="70" />
+                <circle class="progress-ring-circle" id="goal-progress-circle" stroke="var(--color-primary)" stroke-width="10" stroke-linecap="round" fill="transparent" r="58" cx="70" cy="70" />
+              </svg>
+              <div class="ring-label">
+                <span class="ring-num" id="daily-studied-val">0</span>
+                <span class="ring-target" id="daily-target-val">/ 60</span>
+                <span class="ring-caption">Cards Today</span>
+              </div>
+            </div>
+
+            <div class="goal-selector-group">
+              <span class="selector-label">Change Goal:</span>
+              <div class="goal-options">
+                <button type="button" class="goal-btn" data-goal="20">20</button>
+                <button type="button" class="goal-btn" data-goal="40">40</button>
+                <button type="button" class="goal-btn active" data-goal="60">60</button>
+                <button type="button" class="goal-btn" data-goal="90">90</button>
+                <button type="button" class="goal-btn" data-goal="120">120</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Streak Card -->
+          <div class="progress-card streak-widget">
+            <h3 class="widget-title">Study Consistency</h3>
+            <div class="streak-icon-wrap">🔥</div>
+            <div class="streak-details">
+              <div class="streak-primary">
+                <span class="streak-number" id="current-streak-val">0</span>
+                <span class="streak-unit">Days Streak</span>
+              </div>
+              <div class="streak-submetrics">
+                <div class="submetric">
+                  <span class="submetric-val" id="longest-streak-val">0 Days</span>
+                  <span class="submetric-lbl">Best Streak</span>
+                </div>
+                <div class="submetric">
+                  <span class="submetric-val" id="total-days-studied-val">0 Days</span>
+                  <span class="submetric-lbl">Total Days</span>
+                </div>
+              </div>
+            </div>
+            <p class="streak-advice">Study at least 1 card daily to maintain your momentum!</p>
+          </div>
+
+          <!-- Subject Mastery Comparison Card -->
+          <div class="progress-card subject-breakdown-widget">
+            <h3 class="widget-title">Subject Completion (Published)</h3>
+            <div class="subject-progress-bars">
+              <div class="subject-bar-item">
+                <div class="bar-header">
+                  <span class="bar-name">🌿 Biology</span>
+                  <span class="bar-val" id="progress-bar-bio-val">0 / 25</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill bio" id="progress-bar-bio-fill" style="width: 0%"></div>
+                </div>
+              </div>
+
+              <div class="subject-bar-item">
+                <div class="bar-header">
+                  <span class="bar-name">⚡ Physics</span>
+                  <span class="bar-val" id="progress-bar-phy-val">0 / 15</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill phy" id="progress-bar-phy-fill" style="width: 0%"></div>
+                </div>
+              </div>
+
+              <div class="subject-bar-item">
+                <div class="bar-header">
+                  <span class="bar-name">🧪 Chemistry</span>
+                  <span class="bar-val" id="progress-bar-che-val">0 / 15</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill che" id="progress-bar-che-fill" style="width: 0%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="view-section" id="view-about">
+      <div class="content-container">
+        <div class="about-hero-box">
+          <img src="assets/logo/logo.svg" alt="Scrutiny Academy Logo" class="about-logo" width="100" height="100">
+          <h1 class="about-title">About Scrutiny Academy</h1>
+          <p class="about-tagline">LEARN • UNDERSTAND • PRACTICE • MASTER</p>
+          <div class="about-divider"></div>
+          <p class="about-lead">
+            “Scrutiny Academy is an educational learning initiative designed to make structured learning, active recall, practice and revision accessible across school education, NEET preparation and medical education.”
+          </p>
+        </div>
+
+        <div class="about-pillars-grid">
+          <div class="pillar-card">
+            <div class="pillar-icon">🎯</div>
+            <h3 class="pillar-title">Active Recall Architecture</h3>
+            <p class="pillar-desc">Designed around the tested cognitive psychology principle that testing your memory yields significantly stronger synaptic retention than passive reading.</p>
+          </div>
+          <div class="pillar-card">
+            <div class="pillar-icon">⚖️</div>
+            <h3 class="pillar-title">Target 180 Rigor</h3>
+            <p class="pillar-desc">Every chapter is structured to house a target of 180 comprehensive flashcards across 10 specialized categories, avoiding one-dimensional question lists.</p>
+          </div>
+          <div class="pillar-card">
+            <div class="pillar-icon">🔍</div>
+            <h3 class="pillar-title">Transparent Published Metrics</h3>
+            <p class="pillar-desc">We never artificially inflate numbers. Every published counter corresponds directly to verified, high-quality cards existing in the data repository.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SUPPORT / HELP DESK SECTION -->
+    <section class="view-section" id="view-support">
+      <div class="content-container">
+        <div class="support-container">
+          <div class="section-header text-center">
+            <div class="section-tag">COMMUNITY & CONTRIBUTION</div>
+            <h1 class="section-title">Support Scrutiny Academy</h1>
+            <p class="section-subtitle">Connect with our learning platforms, access video lessons, and support open digital education.</p>
+          </div>
+
+          <div class="support-content-grid">
+            <!-- Official Channels Card -->
+            <div class="support-card official-channels">
+              <h3 class="card-box-title">Official Channels & Help Desk</h3>
+              <p class="card-box-desc">Follow Scrutiny Academy for live lectures, daily NEET MCQs, short revision videos, and educational announcements.</p>
+
+              <div class="channels-list">
+                <a href="https://m.youtube.com/@ScrutinyAcademy" target="_blank" rel="noopener noreferrer" class="channel-btn youtube-btn">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                  <div>
+                    <span class="channel-name">YouTube Channel</span>
+                    <span class="channel-handle">@ScrutinyAcademy</span>
+                  </div>
+                </a>
+
+                <a href="https://www.instagram.com/scrutinyacademy" target="_blank" rel="noopener noreferrer" class="channel-btn instagram-btn">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                  <div>
+                    <span class="channel-name">Instagram</span>
+                    <span class="channel-handle">@scrutinyacademy</span>
+                  </div>
+                </a>
+
+                <a href="mailto:scrutinyacademy@gmail.com" class="channel-btn email-btn">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                  <div>
+                    <span class="channel-name">Help Desk Email</span>
+                    <span class="channel-handle">scrutinyacademy@gmail.com</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- Official UPI QR Contribution Card -->
+            <div class="support-card upi-card">
+              <h3 class="card-box-title">Official UPI Contribution</h3>
+              <p class="card-box-desc">Support Scrutiny Academy's free active-recall content creation and open platform development.</p>
+
+              <div class="upi-box">
+                <div class="upi-qr-frame">
+                  <img src="assets/qr/upi-qr.svg" alt="Official Scrutiny Academy UPI QR Code" class="upi-qr-img" width="220" height="220">
+                </div>
+                <div class="upi-meta">
+                  <span class="upi-payee">Pramod Sharma</span>
+                  <div class="upi-id-badge">
+                    <code>iampramodsharma02-1@oksbi</code>
+                    <button type="button" class="copy-upi-btn" id="copy-upi-btn" aria-label="Copy UPI ID">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                    </button>
+                  </div>
+                  <span class="upi-hint">Scan via Google Pay, PhonePe, Paytm, BHIM, or any UPI app</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FLASHCARD STUDY MODAL (FULLSCREEN) -->
+  <div class="study-modal" id="study-modal" role="dialog" aria-modal="true" aria-labelledby="study-chapter-title" hidden>
+    <div class="study-container">
+      <!-- Study Top Bar -->
+      <div class="study-header">
+        <div class="study-header-left">
+          <img src="assets/logo/logo.svg" alt="SA" class="study-logo" width="32" height="32">
+          <div class="study-chapter-meta">
+            <span class="study-subject-pill" id="study-subject-pill">Biology</span>
+            <span class="study-chapter-title" id="study-chapter-title">Cell: The Unit of Life</span>
+          </div>
+        </div>
+
+        <div class="study-header-center">
+          <div class="study-counter">
+            <span id="study-current-index">1</span> / <span id="study-total-cards">25</span>
+          </div>
+          <div class="study-progress-track">
+            <div class="study-progress-bar" id="study-progress-bar" style="width: 4%"></div>
+          </div>
+        </div>
+
+        <div class="study-header-right">
+          <button type="button" class="study-icon-btn bookmark-toggle-btn" id="study-bookmark-btn" aria-label="Bookmark this flashcard" title="Bookmark card (Key: B)">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+          </button>
+          <button type="button" class="study-icon-btn close-study-btn" id="close-study-btn" aria-label="Exit study session" title="Exit (Esc)">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Flashcard Interactive Area -->
+      <div class="card-stage" id="card-stage">
+        <div class="flashcard-3d-wrapper" id="flashcard-wrapper" tabindex="0" role="button" aria-label="Flashcard. Press Space to flip.">
+          <div class="flashcard-inner" id="flashcard-inner">
+
+            <!-- CARD FRONT -->
+            <div class="card-face card-front">
+              <div class="card-face-header">
+                <span class="card-cat-badge" id="card-front-category">Core Concept</span>
+                <div class="card-meta-right">
+                  <span class="card-diff-badge" id="card-front-diff">Easy</span>
+                  <span class="card-id-badge" id="card-front-id">FC-001</span>
+                </div>
+              </div>
+
+              <div class="card-body">
+                <div class="card-question-text" id="card-front-question">
+                  What is the fundamental structural and functional unit of life?
+                </div>
+                <div class="card-tags-row" id="card-front-tags">
+                  <!-- Tags injected here -->
+                </div>
+              </div>
+
+              <div class="card-face-footer">
+                <div class="flip-hint">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
+                  Tap card or press <strong>Space</strong> to reveal answer
+                </div>
+              </div>
+            </div>
+
+            <!-- CARD BACK -->
+            <div class="card-face card-back">
+              <div class="card-face-header">
+                <span class="card-cat-badge back-badge" id="card-back-category">Answer & Explanation</span>
+                <span class="card-id-badge" id="card-back-id">FC-001</span>
+              </div>
+
+              <div class="card-body card-back-body">
+                <div class="card-answer-text" id="card-back-answer">
+                  The cell.
+                </div>
+
+                <div class="card-explanation-box">
+                  <span class="exp-title">Concept & NCERT Takeaway:</span>
+                  <p id="card-back-explanation">Cells form the basic structural and functional organization of living organisms.</p>
+                </div>
+
+                <div class="card-trap-box" id="card-back-trap-box" hidden>
+                  <span class="trap-title">⚠️ Common NEET Trap:</span>
+                  <p id="card-back-trap"></p>
+                </div>
+
+                <div class="card-trick-box" id="card-back-trick-box" hidden>
+                  <span class="trick-title">💡 Memory Trick:</span>
+                  <p id="card-back-trick"></p>
+                </div>
+
+                <div class="card-table-box" id="card-back-table-box" hidden>
+                  <!-- Rendered table if present -->
+                </div>
+              </div>
+
+              <div class="card-face-footer">
+                <div class="flip-hint">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/></svg>
+                  Tap to flip back
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Study Bottom Controls & Spaced Repetition Ratings -->
+      <div class="study-footer">
+        <div class="rating-controls-wrapper" id="rating-controls">
+          <div class="rating-prompt">Rate your recall to schedule next revision:</div>
+          <div class="rating-buttons-group">
+            <button type="button" class="rate-btn rate-again" data-rate="again" title="Shortcut: Key 1">
+              <span class="rate-key">1</span>
+              <span class="rate-label">AGAIN</span>
+              <span class="rate-interval">&lt; 10m</span>
+            </button>
+            <button type="button" class="rate-btn rate-hard" data-rate="hard" title="Shortcut: Key 2">
+              <span class="rate-key">2</span>
+              <span class="rate-label">HARD</span>
+              <span class="rate-interval">1 Day</span>
+            </button>
+            <button type="button" class="rate-btn rate-good" data-rate="good" title="Shortcut: Key 3">
+              <span class="rate-key">3</span>
+              <span class="rate-label">GOOD</span>
+              <span class="rate-interval">3 Days</span>
+            </button>
+            <button type="button" class="rate-btn rate-easy" data-rate="easy" title="Shortcut: Key 4">
+              <span class="rate-key">4</span>
+              <span class="rate-label">EASY</span>
+              <span class="rate-interval">7 Days</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="study-nav-strip">
+          <button type="button" class="study-nav-btn" id="study-prev-btn" aria-label="Previous card" title="Previous (Left Arrow)">
+            &larr; Prev
+          </button>
+          <button type="button" class="study-flip-action-btn" id="study-flip-action-btn">
+            Show Answer
+          </button>
+          <button type="button" class="study-nav-btn" id="study-next-btn" aria-label="Next card" title="Next (Right Arrow)">
+            Next &rarr;
+          </button>
+        </div>
+
+        <div class="keyboard-hints-desktop">
+          <span><strong>Space:</strong> Flip</span>
+          <span><strong>1:</strong> Again</span>
+          <span><strong>2:</strong> Hard</span>
+          <span><strong>3:</strong> Good</span>
+          <span><strong>4:</strong> Easy</span>
+          <span><strong>&larr;/&rarr;:</strong> Prev/Next</span>
+          <span><strong>B:</strong> Bookmark</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SESSION CONFIGURATION MODAL -->
+  <div class="config-modal" id="config-modal" role="dialog" aria-modal="true" aria-labelledby="config-modal-title" hidden>
+    <div class="config-dialog">
+      <div class="config-header">
+        <h3 class="config-title" id="config-modal-title">Configure Flashcard Session</h3>
+        <button type="button" class="close-config-btn" id="close-config-btn" aria-label="Close dialog">&times;</button>
+      </div>
+
+      <div class="config-body">
+        <div class="config-chapter-banner">
+          <span class="cfg-subj" id="cfg-subject-name">Biology</span>
+          <h4 class="cfg-ch-title" id="cfg-chapter-title">Cell: The Unit of Life</h4>
+          <span class="cfg-available" id="cfg-available-count">Published: 25 / 180</span>
+        </div>
+
+        <!-- Mode selector -->
+        <div class="config-form-group">
+          <label class="config-label">Study Mode</label>
+          <div class="config-grid-radios" id="config-mode-radios">
+            <label class="radio-chip"><input type="radio" name="cfg-mode" value="normal" checked> Normal Mode</label>
+            <label class="radio-chip"><input type="radio" name="cfg-mode" value="rapid"> Rapid Revision (High-Yield)</label>
+            <label class="radio-chip"><input type="radio" name="cfg-mode" value="weak"> Weak Cards First</label>
+            <label class="radio-chip"><input type="radio" name="cfg-mode" value="random"> Random Shuffle</label>
+          </div>
+        </div>
+
+        <!-- Card Limit -->
+        <div class="config-form-group">
+          <label class="config-label">Number of Cards</label>
+          <div class="pill-selectors" id="cfg-card-limit-pills">
+            <button type="button" class="limit-pill" data-limit="10">10</button>
+            <button type="button" class="limit-pill" data-limit="20">20</button>
+            <button type="button" class="limit-pill active" data-limit="all">All Available</button>
+          </div>
+        </div>
+
+        <!-- Category Filter -->
+        <div class="config-form-group">
+          <label class="config-label">Category Filter</label>
+          <select id="cfg-category-select">
+            <option value="all">All Categories</option>
+            <option value="Core Concept">Core Concepts</option>
+            <option value="Fact Recall">Fact Recall</option>
+            <option value="Formula / Equation">Formulas & Equations</option>
+            <option value="NEET Trap">NEET Traps</option>
+            <option value="Numerical Step">Numerical Steps</option>
+            <option value="Table / Comparison">Tables & Comparisons</option>
+            <option value="Assertion / Statement">Assertion / Statement</option>
+          </select>
+        </div>
+
+        <!-- Difficulty Filter -->
+        <div class="config-form-group">
+          <label class="config-label">Difficulty Filter</label>
+          <select id="cfg-difficulty-select">
+            <option value="all">All Difficulties</option>
+            <option value="Easy">Easy (30%)</option>
+            <option value="Medium">Medium (50%)</option>
+            <option value="Hard">Hard (20%)</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="config-footer">
+        <button type="button" class="btn btn-secondary" id="config-cancel-btn">Cancel</button>
+        <button type="button" class="btn btn-primary" id="config-start-session-btn">Start Session &rarr;</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SESSION SUMMARY MODAL -->
+  <div class="summary-modal" id="summary-modal" role="dialog" aria-modal="true" hidden>
+    <div class="summary-dialog">
+      <div class="summary-icon">🎯</div>
+      <h2 class="summary-headline">SESSION COMPLETE!</h2>
+      <p class="summary-subline" id="summary-chapter-name">Cell: The Unit of Life</p>
+
+      <div class="summary-metrics-grid">
+        <div class="summary-metric-card">
+          <span class="metric-val" id="summary-studied-count">25</span>
+          <span class="metric-lbl">Cards Studied</span>
+        </div>
+        <div class="summary-metric-card">
+          <span class="metric-val text-green" id="summary-mastered-count">18</span>
+          <span class="metric-lbl">Mastered</span>
+        </div>
+        <div class="summary-metric-card">
+          <span class="metric-val text-orange" id="summary-revision-count">7</span>
+          <span class="metric-lbl">Need Revision</span>
+        </div>
+        <div class="summary-metric-card">
+          <span class="metric-val" id="summary-time-spent">03m 45s</span>
+          <span class="metric-lbl">Time Spent</span>
+        </div>
+      </div>
+
+      <div class="summary-insights" id="summary-insights">
+        <!-- Topic breakdown injected here -->
+      </div>
+
+      <div class="summary-actions">
+        <button type="button" class="btn btn-danger" id="summary-revise-weak-btn">Revise Weak Cards</button>
+        <button type="button" class="btn btn-primary" id="summary-repeat-btn">Study Again</button>
+        <button type="button" class="btn btn-secondary" id="summary-done-btn">Back to Dashboard</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="content-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo-row">
+            <img src="assets/logo/logo.svg" alt="Scrutiny Academy" width="40" height="40">
+            <span class="footer-brand-name">SCRUTINY ACADEMY</span>
+          </div>
+          <p class="footer-tagline">LEARN • UNDERSTAND • PRACTICE • MASTER</p>
+          <p class="footer-desc">Chapter-wise active recall flashcard platform built strictly for NEET UG aspirants across Physics, Chemistry, and Biology.</p>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#class11">Class 11 Curriculum</a></li>
+            <li><a href="#class12">Class 12 Curriculum</a></li>
+            <li><a href="#bookmarks">My Bookmarks</a></li>
+            <li><a href="#progress">Student Analytics</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Subjects</h4>
+          <ul class="footer-links">
+            <li><a href="#biology">NEET Biology (32 Chapters)</a></li>
+            <li><a href="#physics">NEET Physics (30 Chapters)</a></li>
+            <li><a href="#chemistry">NEET Chemistry (21 Chapters)</a></li>
+            <li><a href="#revision">Spaced Repetition Due</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Connect & Tools</h4>
+          <ul class="footer-links">
+            <li><a href="https://m.youtube.com/@ScrutinyAcademy" target="_blank" rel="noopener noreferrer">YouTube Channel</a></li>
+            <li><a href="https://www.instagram.com/scrutinyacademy" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a href="mailto:scrutinyacademy@gmail.com">Help Desk Email</a></li>
+            <li><a href="tools/content-manager.html">Content Manager Tool</a></li>
+            <li><a href="tools/flashcard-validator.html">Flashcard Validator Tool</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">© 2026 SCRUTINY ACADEMY | ALL RIGHTS RESERVED</p>
+        <p class="disclaimer-text">Target: 180 high-yield flashcards per chapter. Real published counts verified live.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

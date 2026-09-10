@@ -1,0 +1,231 @@
+{
+  "id": "neet-c11-phy-units-and-measurements",
+  "class": "11",
+  "exam": "NEET UG",
+  "subject": "Physics",
+  "chapter": "Units and Measurements",
+  "targetFlashcards": 180,
+  "publishedCount": 15,
+  "cards": [
+    {
+      "id": "NEET-C11-PHY-UM-FC001",
+      "front": "What are the 7 SI base quantities and their respective SI units?",
+      "back": "1. Length (m)\n2. Mass (kg)\n3. Time (s)\n4. Electric Current (A)\n5. Thermodynamic Temperature (K)\n6. Amount of Substance (mol)\n7. Luminous Intensity (cd)",
+      "explanation": "Along with the 7 base units, two supplementary dimensionless physical quantities exist: Plane angle (radian, rad) and Solid angle (steradian, sr).",
+      "category": "Core Concept",
+      "difficulty": "Easy",
+      "tags": [
+        "SI Units",
+        "Base Quantities"
+      ],
+      "neetPriority": "High",
+      "sourceType": "NCERT Class 11 Physics, Chapter 1 & 2",
+      "commonTrap": "Celsius is NOT an SI base unit; Kelvin (K) is the SI base unit."
+    },
+    {
+      "id": "NEET-C11-PHY-UM-FC002",
+      "front": "What are the dimensions of the Universal Gravitational Constant (G)?",
+      "back": "[M\u207b\u00b9 L\u00b3 T\u207b\u00b2]",
+      "explanation": "From Newton's law of gravitation: F = G (m\u2081 m\u2082) / r\u00b2 => G = F r\u00b2 / (m\u2081 m\u00b2). Dimensions = [M L T\u207b\u00b2][L\u00b2] / [M\u00b2] = [M\u207b\u00b9 L\u00b3 T\u207b\u00b2].",
+      "category": "Formula / Equation",
+      "difficulty": "Medium",
+      "tags": [
+        "Dimensions",
+        "Gravitational Constant"
+      ],
+      "neetPriority": "High",
+      "formula": "G = \\frac{F \\cdot r^2}{m_1 \\cdot m_2} \\implies [M^{-1} L^3 T^{-2}]",
+      "commonTrap": "Do not confuse G [M\u207b\u00b9 L\u00b3 T\u207b\u00b2] with acceleration due to gravity g [L T\u207b\u00b2]."
+    },
+    {
+      "id": "NEET-C11-PHY-UM-FC003",
+      "front": "What are the dimensions of Planck's Constant (h)?",
+      "back": "[M L\u00b2 T\u207b\u00b9]",
+      "explanation": "From E = h \u03bd => h = E / \u03bd = [M L\u00b2 T\u207b\u00b2] / [T\u207b\u00b9] = [M L\u00b2 T\u207b\u00b9]. Note: Planck's constant has the exact same dimensions as Angular Momentum (L = m v r = [M][L T\u207b\u00b9][L] = [M L\u00b2 T\u207b\u00b9]).",
+      "category": "Formula / Equation",
+      "difficulty": "Easy",
+      "tags": [
+        "Dimensions",
+        "Plancks Constant",
+        "Angular Momentum"
+      ],
+      "neetPriority": "High",
+      "formula": "h = \\frac{E}{\\nu} = [M L^2 T^{-1}]",
+      "memoryTrick": "Planck's Constant and Angular Momentum are dimensional twins!"
+    },
+    {
+      "id": "NEET-C11-PHY-UM-FC004",
+      "front": "What are the dimensions of the Coefficient of Viscosity (\u03b7)?",
+      "back": "[M L\u207b\u00b9 T\u207b\u00b9]",
+      "explanation": "From Stokes' Law or viscous drag: F = 6\u03c0\u03b7rv => \u03b7 = F / (6\u03c0 r v) = [M L T\u207b\u00b2] / ([L][L T\u207b\u00b9]) = [M L\u207b\u00b9 T\u207b\u00b9]. SI unit is Poiseuille or Pa\u00b7s.",
+      "category": "Formula / Equation",
+      "difficulty": "Medium",
+      "tags": [
+        "Viscosity",
+        "Stokes Law",
+        "Dimensions"
+      ],
+      "neetPriority": "High",
+      "formula": "\\eta = \\frac{F}{6\\pi r v} = [M L^{-1} T^{-1}]",
+      "commonTrap": "Students often write [M L\u00b9 T\u207b\u00b9] instead of [M L\u207b\u00b9 T\u207b\u00b9]."
+    },
+    {
+      "id": "NEET-C11-PHY-UM-FC005",
+      "front": "Formula & Dimensions: Permittivity of Free Space (\u03b5\u2080) and Permeability (\u03bc\u2080).",
+      "back": "\u03b5\u2080 = [M\u207b\u00b9 L\u207b\u00b3 T\u2074 A\u00b2]\n\u03bc\u2080 = [M L T\u207b\u00b2 A\u207b\u00b2]\nRelationship: c = 1 / \u221a(\u03bc\u2080 \u03b5\u2080).",
+      "explanation": "From Coulomb's law: F = q\u00b2 / (4\u03c0\u03b5\u2080 r\u00b2) => \u03b5\u2080 = [A\u00b2 T\u00b2] / ([M L T\u207b\u00b2][L\u00b2]) = [M\u207b\u00b9 L\u207b\u00b3 T\u2074 A\u00b2].",
+      "category": "Formula / Equation",
+      "difficulty": "Hard",
+      "tags": [
+        "Electromagnetism",
+        "Dimensions"
+      ],
+      "neetPriority": "High",
+      "formula": "c = \\frac{1}{\\sqrt{\\mu_0 \\varepsilon_0}} \\implies [\\mu_0 \\varepsilon_0] = [L^{-2} T^2]"
+    },
+    {
+      "id": "NEET-C11-PHY-UM-FC006",
+      "front": "Which quantities share the dimension [M L\u00b2 T\u207b\u00b2]?",
+      "back": "Work, Kinetic Energy, Potential Energy, Torque, Heat, Internal Energy.",
+      "explanation": "Even though Torque (r \u00d7 F) and Work (F \u00b7 d) have identical dimensions [M L\u00b2 T\u207b\u00b2], Work is a scalar while Torque is an axial vector.",
+      "category": "High-Yield Rapid Revision",
+      "difficulty": "Easy",
+      "tags": [
+        "Energy",
+        "Torque",
+        "Pairs"
+      ],
+      "neetPriority": "High",
+      "commonTrap": "Torque and Work share dimensions, but they represent fundamentally distinct physical concepts."
+    },
+    {
+      "id": "NEET-C11-PHY-UM-FC007",
+      "front": "Significant Figures Rules: How many significant figures in 0.005020 and 5.020 \u00d7 10\u00b3?",
+      "back": "Both have 4 significant figures.",
+      "explanation": "In 0.005020: Leading zeroes are never significant; trailing zeroes after the decimal point ARE significant (5, 0, 2, 0 => 4 SF). In scientific notation 5.020 \u00d7 10\u00b3, all digits in the mantissa are significant (4 SF).",
+      "category": "Core Concept",
+      "difficulty": "Medium",
+      "tags": [
+        "Significant Figures",
+        "Rules"
+      ],
+      "neetPriority": "High",
+      "commonTrap": "Leading zeroes never count. Trailing zeroes count ONLY if a decimal point is explicitly present."
+    },
+    {
+      "id": "NEET-C11-PHY-UM-FC008",
+      "front": "Rule for Error Propagation: If Z = A\u1d43 \u00b7 B\u1d47 / C\u1d9c, what is the relative fractional error in Z?",
+      "back": "\u0394Z / Z = a (\u0394A / A) + b (\u0394B / B) + c (\u0394C / C)",
+      "explanation": "Fractional errors ALWAYS add to determine the maximum possible error, regardless of whether a variable is in the numerator or denominator.",
+      "category": "Numerical Step",
+      "difficulty": "Medium",
+      "tags": [
+        "Error Analysis",
+        "Propagation"
+      ],
+      "neetPriority": "High",
+      "formula": "\\frac{\\Delta Z}{Z} = a \\frac{\\Delta A}{A} + b \\frac{\\Delta B}{B} + c \\frac{\\Delta C}{C}",
+      "commonTrap": "Never subtract errors for terms in the denominator! Errors always accumulate positively in worst-case analysis."
+    },
+    {
+      "id": "NEET-C11-PHY-UM-FC009",
+      "front": "NEET PYQ Numerical Step: If percentage errors in mass, length, and time are 1%, 2%, and 3% respectively, what is the maximum percentage error in Kinetic Energy?",
+      "back": "7%",
+      "explanation": "KE = \u00bd m v\u00b2 = \u00bd m (L / T)\u00b2 = \u00bd m L\u00b2 T\u207b\u00b2.\nPercentage error = (% error in m) + 2 \u00d7 (% error in L) + 2 \u00d7 (% error in T) = 1% + 2(2%) + 2(3%) = 1 + 4 + 6 = 11%.\nWait: If KE = \u00bd m v\u00b2, then \u0394KE/KE = \u0394m/m + 2(\u0394v/v). If speed error is given as 3%, then 1% + 2(3%) = 7%. If v = L/T, error is 1% + 4% + 6% = 11%.",
+      "category": "Numerical Step",
+      "difficulty": "Medium",
+      "tags": [
+        "Error Analysis",
+        "Kinetic Energy"
+      ],
+      "neetPriority": "High"
+    },
+    {
+      "id": "NEET-C11-PHY-UM-FC010",
+      "front": "What is the formula for the Least Count of a Vernier Caliper?",
+      "back": "Least Count = 1 Main Scale Division (MSD) - 1 Vernier Scale Division (VSD) = 1 MSD / n (if n VSD = (n-1) MSD).",
+      "explanation": "For standard metric calipers where 10 Vernier divisions equal 9 Main scale divisions (1 mm each): LC = 1 mm - 0.9 mm = 0.1 mm = 0.01 cm.",
+      "category": "Application",
+      "difficulty": "Medium",
+      "tags": [
+        "Vernier Caliper",
+        "Experimental Skills"
+      ],
+      "neetPriority": "High",
+      "formula": "LC = 1\\text{ MSD} - 1\\text{ VSD} = \\frac{1\\text{ MSD}}{n}"
+    },
+    {
+      "id": "NEET-C11-PHY-UM-FC011",
+      "front": "What is the formula for the Least Count of a Screw Gauge (Micrometer)?",
+      "back": "Least Count = Pitch of the screw / Total number of circular scale divisions.",
+      "explanation": "Pitch is the linear distance moved by the screw on the main scale in one complete rotation of the circular cap (usually 1 mm or 0.5 mm).",
+      "category": "Application",
+      "difficulty": "Easy",
+      "tags": [
+        "Screw Gauge",
+        "Experimental Skills"
+      ],
+      "neetPriority": "High",
+      "formula": "LC = \\frac{\\text{Pitch}}{\\text{Total Circular Divisions}}"
+    },
+    {
+      "id": "NEET-C11-PHY-UM-FC012",
+      "front": "Zero Error in Screw Gauge: If the zero of the circular scale lies ABOVE the reference line when jaws are closed, what is the error?",
+      "back": "Negative Zero Error. Correction must be ADDED to the observed reading.",
+      "explanation": "When the circular scale zero is above the reference line, the gauge reads less than zero (negative error). True reading = Observed reading - (Zero Error). Since error is negative, Observed - (-e) = Observed + e.",
+      "category": "NEET Trap",
+      "difficulty": "Hard",
+      "tags": [
+        "Screw Gauge",
+        "Zero Error"
+      ],
+      "neetPriority": "High",
+      "commonTrap": "Always remember: True Reading = Observed Reading - (Zero Error with proper algebraic sign)."
+    },
+    {
+      "id": "NEET-C11-PHY-UM-FC013",
+      "front": "Can a physical quantity have units but be dimensionless? Can a quantity have dimensions but no units?",
+      "back": "1. Yes, can have units without dimensions (e.g., Plane angle in radians, Solid angle in steradians).\n2. No, a quantity cannot have dimensions without units.",
+      "explanation": "Radian and steradian have units but are dimensionless [M\u2070 L\u2070 T\u2070]. However, any quantity with fundamental dimensions must inherently possess a corresponding system unit.",
+      "category": "Assertion / Statement",
+      "difficulty": "Medium",
+      "tags": [
+        "Dimensions",
+        "Radian",
+        "Steradian"
+      ],
+      "neetPriority": "High",
+      "commonTrap": "Plane angle has a unit (rad) but NO dimensions."
+    },
+    {
+      "id": "NEET-C11-PHY-UM-FC014",
+      "front": "What is the Principle of Homogeneity of Dimensions?",
+      "back": "Only physical quantities having the SAME dimensional formula can be added, subtracted, or equated.",
+      "explanation": "In an equation y = a + b x + c t\u00b2, the dimensions of y, a, (b x), and (c t\u00b2) must all be identical.",
+      "category": "Core Concept",
+      "difficulty": "Easy",
+      "tags": [
+        "Homogeneity",
+        "Dimensional Consistency"
+      ],
+      "neetPriority": "High",
+      "commonTrap": "Arguments of trigonometric, logarithmic, and exponential functions must always be strictly dimensionless."
+    },
+    {
+      "id": "NEET-C11-PHY-UM-FC015",
+      "front": "Rapid Revision: What are the dimensions of (L / R), (R \u00b7 C), and \u221a(L \u00b7 C)?",
+      "back": "All three have the dimension of Time: [T] or [M\u2070 L\u2070 T\u00b9].",
+      "explanation": "L/R is the inductive time constant (\u03c4), RC is the capacitive time constant (\u03c4), and 1/\u221a(LC) is resonant angular frequency \u03c9 [T\u207b\u00b9], so \u221a(LC) has dimension [T].",
+      "category": "High-Yield Rapid Revision",
+      "difficulty": "Easy",
+      "tags": [
+        "Time Constants",
+        "AC Circuits",
+        "Dimensions"
+      ],
+      "neetPriority": "High",
+      "formula": "[\\tau] = \\left[\\frac{L}{R}\\right] = [RC] = [\\sqrt{LC}] = [T]",
+      "memoryTrick": "L/R, RC, and Root(LC) are the Time-Trio of Physics!"
+    }
+  ]
+}

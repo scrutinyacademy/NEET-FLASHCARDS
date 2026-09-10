@@ -1,0 +1,224 @@
+{
+  "id": "neet-c11-che-some-basic-concepts-of-chemistry",
+  "class": "11",
+  "exam": "NEET UG",
+  "subject": "Chemistry",
+  "chapter": "Some Basic Concepts of Chemistry",
+  "targetFlashcards": 180,
+  "publishedCount": 15,
+  "cards": [
+    {
+      "id": "NEET-C11-CHE-SBC-FC001",
+      "front": "Define the Mole and state the exact value of Avogadro's constant (N_A).",
+      "back": "One mole contains exactly 6.02214076 \u00d7 10\u00b2\u00b3 elementary entities (atoms, molecules, ions, or electrons).",
+      "explanation": "Defined by fixing the numerical value of Avogadro constant N_A when expressed in mol\u207b\u00b9. Previously defined relative to the number of atoms in exactly 12 g of carbon-12 (\u00b9\u00b2C).",
+      "category": "Core Concept",
+      "difficulty": "Easy",
+      "tags": [
+        "Mole Concept",
+        "Avogadro Number"
+      ],
+      "neetPriority": "High",
+      "sourceType": "NCERT Class 11 Chemistry, Chapter 1"
+    },
+    {
+      "id": "NEET-C11-CHE-SBC-FC002",
+      "front": "What is the molar volume of an ideal gas at STP (Standard Temperature and Pressure: 0\u00b0C, 1 bar)?",
+      "back": "22.7 Litres (22.7 L / mol).",
+      "explanation": "Under standard conditions of 273.15 K (0 \u00b0C) and 1 bar pressure, 1 mole of gas occupies 22.71 L. Note: At old STP (1 atm, 0 \u00b0C), molar volume was 22.4 L.",
+      "category": "Fact Recall",
+      "difficulty": "Medium",
+      "tags": [
+        "STP",
+        "Molar Volume"
+      ],
+      "neetPriority": "High",
+      "commonTrap": "Modern IUPAC STP is 1 bar (22.7 L), whereas standard textbook questions using 1 atm use 22.4 L. Always check the pressure unit in the NEET question."
+    },
+    {
+      "id": "NEET-C11-CHE-SBC-FC003",
+      "front": "What is the relationship between Empirical Formula and Molecular Formula?",
+      "back": "Molecular Formula = n \u00d7 (Empirical Formula), where n = (Molar Mass) / (Empirical Formula Mass).",
+      "explanation": "Empirical formula shows the simplest whole-number ratio of various atoms in a compound, while molecular formula shows the exact number of different types of atoms.",
+      "category": "Formula / Equation",
+      "difficulty": "Easy",
+      "tags": [
+        "Empirical Formula",
+        "Molecular Formula"
+      ],
+      "neetPriority": "High",
+      "formula": "n = \\frac{\\text{Molar Mass}}{\\text{Empirical Formula Mass}}"
+    },
+    {
+      "id": "NEET-C11-CHE-SBC-FC004",
+      "front": "Define Molarity (M) vs Molality (m). Which one is temperature dependent and why?",
+      "back": "Molarity (M) = Moles of solute / Volume of solution in Litres. Molality (m) = Moles of solute / Mass of solvent in Kilograms. Molarity changes with temperature because liquid volume expands/contracts with T.",
+      "explanation": "Molality (m), mole fraction (\u03c7), and mass percentage (w/w%) are based strictly on mass, making them independent of temperature.",
+      "category": "Table / Comparison",
+      "difficulty": "Medium",
+      "tags": [
+        "Molarity",
+        "Molality",
+        "Concentrations"
+      ],
+      "neetPriority": "High",
+      "table": "<table class='data-table'><thead><tr><th>Property</th><th>Molarity (M)</th><th>Molality (m)</th></tr></thead><tbody><tr><td>Denominator</td><td>Volume of solution (L)</td><td>Mass of solvent (kg)</td></tr><tr><td>Temp Dependent?</td><td>Yes (Volume changes)</td><td>No (Mass is constant)</td></tr><tr><td>Preferred in thermo?</td><td>No</td><td>Yes</td></tr></tbody></table>",
+      "commonTrap": "Molality has solvent mass in kg in the denominator, NOT total solution mass."
+    },
+    {
+      "id": "NEET-C11-CHE-SBC-FC005",
+      "front": "What is the Limiting Reagent in a chemical reaction?",
+      "back": "The reactant that is completely consumed first in a reaction, thereby limiting the maximum amount of product formed.",
+      "explanation": "To find limiting reagent: divide moles of each reactant by its stoichiometric coefficient in the balanced equation. The reactant with the lowest (Moles / Coefficient) ratio is the limiting reagent.",
+      "category": "Core Concept",
+      "difficulty": "Medium",
+      "tags": [
+        "Limiting Reagent",
+        "Stoichiometry"
+      ],
+      "neetPriority": "High",
+      "formula": "\\text{Compare: } \\frac{n_A}{a} \\text{ vs } \\frac{n_B}{b}"
+    },
+    {
+      "id": "NEET-C11-CHE-SBC-FC006",
+      "front": "Law of Multiple Proportions (John Dalton): State the law with an example.",
+      "back": "When two elements combine to form more than one compound, the masses of one element that combine with a fixed mass of the other are in a ratio of small whole numbers.",
+      "explanation": "Example: In Carbon Monoxide (CO, 12g C + 16g O) and Carbon Dioxide (CO\u2082, 12g C + 32g O), the ratio of oxygen masses combining with 12g carbon is 16:32 = 1:2.",
+      "category": "Core Concept",
+      "difficulty": "Medium",
+      "tags": [
+        "Chemical Laws",
+        "Dalton"
+      ],
+      "neetPriority": "High"
+    },
+    {
+      "id": "NEET-C11-CHE-SBC-FC007",
+      "front": "What is the difference between Gay Lussac's Law of Gaseous Volumes and Avogadro's Law?",
+      "back": "Gay Lussac: Gases react in simple volume ratios at constant T & P. Avogadro: Equal volumes of ALL gases at the same T & P contain equal numbers of molecules.",
+      "explanation": "Avogadro made a distinction between atoms and molecules, successfully resolving the contradiction in Berzelius's hypothesis.",
+      "category": "Assertion / Statement",
+      "difficulty": "Medium",
+      "tags": [
+        "Gas Laws",
+        "Avogadro",
+        "Gay Lussac"
+      ],
+      "neetPriority": "Medium"
+    },
+    {
+      "id": "NEET-C11-CHE-SBC-FC008",
+      "front": "Formula: How to calculate Mass Percentage (w/w %) of an element in a compound?",
+      "back": "Mass % = (Mass of that element in 1 mole of compound / Molar mass of compound) \u00d7 100",
+      "explanation": "Example: In water (H\u2082O, M = 18.02 g/mol), Mass % of Hydrogen = (2 \u00d7 1.008 / 18.02) \u00d7 100 = 11.18%, and Oxygen = (16.00 / 18.02) \u00d7 100 = 88.79%.",
+      "category": "Formula / Equation",
+      "difficulty": "Easy",
+      "tags": [
+        "Mass Percentage",
+        "Calculations"
+      ],
+      "neetPriority": "High",
+      "formula": "\\text{Mass }\\% = \\frac{\\text{Mass of element in 1 mole}}{\\text{Molar mass of compound}} \\times 100"
+    },
+    {
+      "id": "NEET-C11-CHE-SBC-FC009",
+      "front": "What is the relation between Normality (N) and Molarity (M)?",
+      "back": "Normality (N) = Molarity (M) \u00d7 n-factor (valency factor).",
+      "explanation": "For acids, n-factor = basicity (replacable H\u207a, e.g., H\u2082SO\u2084 n=2, H\u2083PO\u2084 n=3, H\u2083PO\u2083 n=2, H\u2083PO\u2082 n=1). For bases, n-factor = acidity (replacable OH\u207b). In redox, n-factor = number of electrons gained or lost per mole.",
+      "category": "Formula / Equation",
+      "difficulty": "Medium",
+      "tags": [
+        "Normality",
+        "Molarity",
+        "n-factor"
+      ],
+      "neetPriority": "High",
+      "formula": "N = M \\times n\\text{-factor}",
+      "commonTrap": "Phosphorous acid H\u2083PO\u2083 has 3 hydrogens, but its basicity is ONLY 2 because one hydrogen is bonded directly to phosphorus (P-H bond) and is non-ionizable."
+    },
+    {
+      "id": "NEET-C11-CHE-SBC-FC010",
+      "front": "NEET Trap: What are the n-factors of H\u2083PO\u2084, H\u2083PO\u2083, and H\u2083PO\u2082 in acid-base neutralizations?",
+      "back": "H\u2083PO\u2084: n = 3 (tribasic); H\u2083PO\u2083: n = 2 (dibasic); H\u2083PO\u2082: n = 1 (monobasic).",
+      "explanation": "Only hydrogens attached to electronegative oxygen atoms (P-OH) are ionizable as protons. H\u2083PO\u2082 has two P-H bonds and only one P-OH bond.",
+      "category": "NEET Trap",
+      "difficulty": "Hard",
+      "tags": [
+        "Oxyacids of Phosphorus",
+        "n-factor",
+        "NEET Trap"
+      ],
+      "neetPriority": "High",
+      "memoryTrick": "Count the oxygens minus 1! (O - 1) gives the number of ionizable P-OH bonds in simple phosphorous oxyacids: 4-1=3, 3-1=2, 2-1=1."
+    },
+    {
+      "id": "NEET-C11-CHE-SBC-FC011",
+      "front": "Formula: How to calculate Mole Fraction (\u03c7) of a component in a binary solution?",
+      "back": "\u03c7_A = n_A / (n_A + n_B) ;  \u03c7_B = n_B / (n_A + n_B) ;  \u03c7_A + \u03c7_B = 1",
+      "explanation": "Mole fraction is a dimensionless ratio. It is completely independent of temperature.",
+      "category": "Formula / Equation",
+      "difficulty": "Easy",
+      "tags": [
+        "Mole Fraction",
+        "Concentration"
+      ],
+      "neetPriority": "High",
+      "formula": "\\chi_A = \\frac{n_A}{n_A + n_B}, \\quad \\sum \\chi_i = 1"
+    },
+    {
+      "id": "NEET-C11-CHE-SBC-FC012",
+      "front": "What is the law of Conservation of Mass (Lavoisier, 1789) and its modern limitation?",
+      "back": "Matter can neither be created nor destroyed in a chemical reaction. Modern limitation: In nuclear reactions, mass-energy equivalence applies (E = mc\u00b2).",
+      "explanation": "In ordinary chemical reactions, the total mass of reactants equals the total mass of products because atoms are merely rearranged, not created or destroyed.",
+      "category": "Core Concept",
+      "difficulty": "Easy",
+      "tags": [
+        "Lavoisier",
+        "Conservation of Mass"
+      ],
+      "neetPriority": "Medium"
+    },
+    {
+      "id": "NEET-C11-CHE-SBC-FC013",
+      "front": "Numerical Step: How many moles of methane (CH\u2084) are required to produce 22 g of CO\u2082(g) after combustion?",
+      "back": "0.5 moles.",
+      "explanation": "Balanced equation: CH\u2084 + 2O\u2082 \u2192 CO\u2082 + 2H\u2082O. 1 mole of CH\u2084 yields 1 mole of CO\u2082 (44 g). Given mass of CO\u2082 = 22 g => moles of CO\u2082 = 22 / 44 = 0.5 mol. Hence, 0.5 moles of CH\u2084 are required.",
+      "category": "Numerical Step",
+      "difficulty": "Easy",
+      "tags": [
+        "Combustion",
+        "Stoichiometry"
+      ],
+      "neetPriority": "High"
+    },
+    {
+      "id": "NEET-C11-CHE-SBC-FC014",
+      "front": "What is the atomic mass unit (amu or unified mass 'u') defined as?",
+      "back": "Exactly 1/12th of the mass of one carbon-12 (\u00b9\u00b2C) atom in its ground state (1 u \u2248 1.66056 \u00d7 10\u207b\u00b2\u2074 g).",
+      "explanation": "1 u is also equal to 1 / N_A grams. Today, 'amu' has been replaced by unified mass symbol 'u' (Dalton, Da).",
+      "category": "Fact Recall",
+      "difficulty": "Medium",
+      "tags": [
+        "Atomic Mass",
+        "Unified Mass"
+      ],
+      "neetPriority": "High",
+      "formula": "1\\text{ u} = \\frac{1}{N_A}\\text{ g} = 1.66056 \\times 10^{-24}\\text{ g}"
+    },
+    {
+      "id": "NEET-C11-CHE-SBC-FC015",
+      "front": "High-Yield Summary: Dilution Formula & Mixing of two non-reacting solutions of the same solute.",
+      "back": "Dilution: M\u2081 V\u2081 = M\u2082 V\u2082.\nMixing: M_final = (M\u2081 V\u2081 + M\u2082 V\u2082) / (V\u2081 + V\u2082).",
+      "explanation": "Because the total number of moles of solute remains constant during dilution (n = M \u00b7 V), equating initial moles to final moles gives M\u2081V\u2081 = M\u2082V\u2082.",
+      "category": "High-Yield Rapid Revision",
+      "difficulty": "Easy",
+      "tags": [
+        "Dilution",
+        "Mixing",
+        "Formulas"
+      ],
+      "neetPriority": "High",
+      "formula": "M_{\\text{final}} = \\frac{M_1 V_1 + M_2 V_2}{V_1 + V_2}"
+    }
+  ]
+}

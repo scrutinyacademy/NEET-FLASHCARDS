@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scrutiny Academy - NEET Content Manager</title>
+  <link rel="icon" type="image/svg+xml" href="../assets/logo/logo.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1D4ED8;
+      --navy: #0B192C;
+      --bg: #F8FAFC;
+      --surface: #FFFFFF;
+      --border: #E2E8F0;
+      --text: #0F172A;
+      --muted: #64748B;
+      --green: #10B981;
+      --red: #EF4444;
+      --amber: #F59E0B;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 0;
+      line-height: 1.5;
+    }
+    header {
+      background: var(--navy);
+      color: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .brand img {
+      border-radius: 50%;
+    }
+    .brand-title {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 800;
+      font-size: 1.25rem;
+    }
+    .brand-sub {
+      font-size: 0.75rem;
+      color: #94A3B8;
+      display: block;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+    }
+    h2 {
+      font-family: 'Outfit', sans-serif;
+      margin-top: 0;
+      margin-bottom: 0.75rem;
+      font-size: 1.3rem;
+    }
+    textarea {
+      width: 100%;
+      height: 380px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.85rem;
+      padding: 1rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      box-sizing: border-box;
+      resize: vertical;
+      background: #FAFAFA;
+    }
+    textarea:focus {
+      outline: 2px solid var(--primary);
+      background: #fff;
+    }
+    .btn-bar {
+      display: flex;
+      gap: 0.75rem;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
+    button {
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      padding: 0.65rem 1.25rem;
+      border-radius: 6px;
+      font-weight: 600;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: opacity 0.2s;
+    }
+    button:hover {
+      opacity: 0.9;
+    }
+    button.secondary {
+      background: #E2E8F0;
+      color: var(--text);
+    }
+    .stats-strip {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0.75rem;
+      margin-bottom: 1.25rem;
+    }
+    .stat-box {
+      background: var(--bg);
+      padding: 0.75rem;
+      border-radius: 8px;
+      text-align: center;
+      border: 1px solid var(--border);
+    }
+    .stat-val {
+      font-size: 1.35rem;
+      font-weight: 800;
+      font-family: 'Outfit', sans-serif;
+      display: block;
+    }
+    .stat-lbl {
+      font-size: 0.75rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+    .report-box {
+      max-height: 380px;
+      overflow-y: auto;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.85rem;
+      padding: 1rem;
+      border-radius: 8px;
+      background: #F1F5F9;
+      border: 1px solid var(--border);
+    }
+    .report-entry {
+      margin-bottom: 0.5rem;
+      padding: 0.4rem 0.6rem;
+      border-radius: 4px;
+    }
+    .report-ok { background: #ECFDF5; color: #065F46; border-left: 3px solid var(--green); }
+    .report-warn { background: #FFFBEB; color: #92400E; border-left: 3px solid var(--amber); }
+    .report-err { background: #FEF2F2; color: #991B1B; border-left: 3px solid var(--red); }
+    .nav-back {
+      color: #94A3B8;
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+    .nav-back:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <img src="../assets/logo/logo.svg" alt="SA" width="40" height="40">
+      <div>
+        <span class="brand-title">SCRUTINY ACADEMY</span>
+        <span class="brand-sub">NEET UG Content Manager & JSON Formatter</span>
+      </div>
+    </div>
+    <a href="../index.html" class="nav-back">&larr; Return to Learning Platform</a>
+  </header>
+
+  <div class="container">
+    <div class="grid">
+      <!-- Input Column -->
+      <div class="card">
+        <h2>Chapter Flashcard JSON Input</h2>
+        <p style="font-size:0.85rem; color:var(--muted); margin-bottom:0.75rem;">
+          Paste complete chapter JSON or raw cards array. The manager enforces the Scrutiny Academy schema and target 180 cards constraint.
+        </p>
+        <textarea id="json-input" placeholder='Paste chapter JSON here... e.g.
+{
+  "id": "neet-c11-bio-cell",
+  "class": "11",
+  "subject": "Biology",
+  "chapter": "Cell: The Unit of Life",
+  "targetFlashcards": 180,
+  "cards": [ ... ]
+}'></textarea>
+
+        <div class="btn-bar">
+          <button type="button" id="validate-btn">Validate & Analyze</button>
+          <button type="button" class="secondary" id="load-sample-btn">Load Sample Deck</button>
+          <button type="button" class="secondary" id="format-json-btn">Format & Indent</button>
+          <button type="button" id="download-json-btn" style="margin-left:auto;">Download Clean JSON</button>
+        </div>
+      </div>
+
+      <!-- Analysis Column -->
+      <div class="card">
+        <h2>Validation & Audit Report</h2>
+        <div class="stats-strip">
+          <div class="stat-box">
+            <span class="stat-val" id="stat-count">0</span>
+            <span class="stat-lbl">Cards Found</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-val" id="stat-target">180</span>
+            <span class="stat-lbl">Target Cards</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-val" id="stat-dup">0</span>
+            <span class="stat-lbl">Duplicate IDs</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-val" id="stat-empty">0</span>
+            <span class="stat-lbl">Field Errors</span>
+          </div>
+        </div>
+
+        <div class="report-box" id="report-output">
+          <span style="color:var(--muted);">Ready to analyze. Click "Validate & Analyze" after pasting JSON.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const sampleData = {
+      "id": "neet-c11-bio-sample",
+      "class": "11",
+      "exam": "NEET UG",
+      "subject": "Biology",
+      "chapter": "Cell: The Unit of Life",
+      "targetFlashcards": 180,
+      "cards": [
+        {
+          "id": "NEET-C11-BIO-CELL-FC001",
+          "front": "What is the fundamental structural and functional unit of life?",
+          "back": "The cell.",
+          "explanation": "Unicellular organisms are capable of independent existence and performing essential functions.",
+          "category": "Core Concept",
+          "difficulty": "Easy",
+          "tags": ["Cell Theory"],
+          "neetPriority": "High"
+        }
+      ]
+    };
+
+    document.getElementById('load-sample-btn').onclick = () => {
+      document.getElementById('json-input').value = JSON.stringify(sampleData, null, 2);
+      analyzeJSON();
+    };
+
+    document.getElementById('format-json-btn').onclick = () => {
+      try {
+        const parsed = JSON.parse(document.getElementById('json-input').value);
+        document.getElementById('json-input').value = JSON.stringify(parsed, null, 2);
+      } catch (err) {
+        alert('Invalid JSON: ' + err.message);
+      }
+    };
+
+    document.getElementById('validate-btn').onclick = analyzeJSON;
+
+    function analyzeJSON() {
+      const raw = document.getElementById('json-input').value.trim();
+      const rep = document.getElementById('report-output');
+      if (!raw) {
+        rep.innerHTML = '<div class="report-entry report-err">Input textarea is empty.</div>';
+        return;
+      }
+
+      let parsed;
+      try {
+        parsed = JSON.parse(raw);
+      } catch (err) {
+        rep.innerHTML = `<div class="report-entry report-err">JSON Syntax Error: ${err.message}</div>`;
+        return;
+      }
+
+      let cards = [];
+      if (Array.isArray(parsed)) {
+        cards = parsed;
+      } else if (parsed && Array.isArray(parsed.cards)) {
+        cards = parsed.cards;
+      } else {
+        rep.innerHTML = `<div class="report-entry report-err">No 'cards' array found in root object.</div>`;
+        return;
+      }
+
+      document.getElementById('stat-count').textContent = cards.length;
+      document.getElementById('stat-target').textContent = parsed.targetFlashcards || 180;
+
+      const seenIds = new Set();
+      let dupIds = 0;
+      let emptyErrors = 0;
+      const logs = [];
+
+      cards.forEach((c, idx) => {
+        const id = c.id || `(Index ${idx})`;
+        if (!c.id) {
+          emptyErrors++;
+          logs.push(`<div class="report-entry report-err">Card #${idx + 1}: Missing 'id' field!</div>`);
+        } else {
+          if (seenIds.has(c.id)) {
+            dupIds++;
+            logs.push(`<div class="report-entry report-err">Card #${idx + 1}: Duplicate ID detected -> ${c.id}</div>`);
+          }
+          seenIds.add(c.id);
+        }
+
+        if (!c.front || !c.front.trim()) {
+          emptyErrors++;
+          logs.push(`<div class="report-entry report-err">${id}: Empty front/question!</div>`);
+        }
+        if (!c.back || !c.back.trim()) {
+          emptyErrors++;
+          logs.push(`<div class="report-entry report-err">${id}: Empty back/answer!</div>`);
+        }
+        if (!c.explanation || !c.explanation.trim()) {
+          logs.push(`<div class="report-entry report-warn">${id}: Missing explanation field.</div>`);
+        }
+      });
+
+      document.getElementById('stat-dup').textContent = dupIds;
+      document.getElementById('stat-empty').textContent = emptyErrors;
+
+      if (logs.length === 0) {
+        logs.unshift(`<div class="report-entry report-ok">✓ ALL ${cards.length} CARDS PASS AUDIT! Ready for publishing.</div>`);
+      } else {
+        logs.unshift(`<div class="report-entry report-warn">Found ${logs.length} audit notifications. Review below:</div>`);
+      }
+
+      rep.innerHTML = logs.join('');
+    }
+
+    document.getElementById('download-json-btn').onclick = () => {
+      const raw = document.getElementById('json-input').value.trim();
+      if (!raw) return alert('No data to download.');
+      try {
+        const parsed = JSON.parse(raw);
+        if (!parsed.publishedCount && parsed.cards) {
+          parsed.publishedCount = parsed.cards.length;
+        }
+        const blob = new Blob([JSON.stringify(parsed, null, 2)], { type: 'application/json' });
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = (parsed.slug || 'neet-chapter-flashcards') + '.json';
+        a.click();
+      } catch (e) {
+        alert('Invalid JSON: ' + e.message);
+      }
+    };
+  </script>
+</body>
+</html>

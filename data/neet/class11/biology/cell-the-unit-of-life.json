@@ -1,0 +1,375 @@
+{
+  "id": "neet-c11-bio-cell-the-unit-of-life",
+  "class": "11",
+  "exam": "NEET UG",
+  "subject": "Biology",
+  "chapter": "Cell: The Unit of Life",
+  "targetFlashcards": 180,
+  "publishedCount": 25,
+  "cards": [
+    {
+      "id": "NEET-C11-BIO-CELL-FC001",
+      "front": "What is the fundamental structural and functional unit of all living organisms?",
+      "back": "The cell.",
+      "explanation": "Unicellular organisms are capable of independent existence and performing the essential functions of life. Anything less than a complete structure of a cell does not ensure independent living.",
+      "category": "Core Concept",
+      "difficulty": "Easy",
+      "tags": [
+        "Cell Theory",
+        "NCERT Basics"
+      ],
+      "neetPriority": "High",
+      "sourceType": "NCERT Class 11 Biology, Chapter 8",
+      "commonTrap": "Do not confuse viruses with independent cellular units; viruses are acellular nucleoprotein particles without independent metabolic machinery.",
+      "memoryTrick": "C-E-L-L: Complete Entities Living Life."
+    },
+    {
+      "id": "NEET-C11-BIO-CELL-FC002",
+      "front": "Who first saw and described a live cell?",
+      "back": "Anton Von Leeuwenhoek.",
+      "explanation": "Anton Von Leeuwenhoek first saw and described a live cell using his improved simple microscope. Robert Brown later discovered and named the nucleus.",
+      "category": "Fact Recall",
+      "difficulty": "Easy",
+      "tags": [
+        "History",
+        "Scientists"
+      ],
+      "neetPriority": "Medium",
+      "sourceType": "NCERT Chapter 8",
+      "commonTrap": "Robert Hooke observed dead cell walls of cork tissue (cellulae), NOT a live cell. Leeuwenhoek saw the first living cell."
+    },
+    {
+      "id": "NEET-C11-BIO-CELL-FC003",
+      "front": "Who formulated the Cell Theory and who gave it the final shape with 'Omnis cellula-e cellula'?",
+      "back": "Formulated by Schleiden (1838) & Schwann (1839); finalized by Rudolf Virchow (1855).",
+      "explanation": "Matthias Schleiden (German botanist) and Theodore Schwann (British zoologist) formulated the cell theory, but could not explain how new cells were formed. Rudolf Virchow first explained that cells divide and new cells are formed from pre-existing cells (Omnis cellula-e cellula).",
+      "category": "Core Concept",
+      "difficulty": "Medium",
+      "tags": [
+        "Cell Theory",
+        "Scientists"
+      ],
+      "neetPriority": "High",
+      "sourceType": "NCERT Chapter 8",
+      "commonTrap": "Schleiden was a Botanist (plants), Schwann was a Zoologist (studied both animal cells and thin outer layer of plant cells)."
+    },
+    {
+      "id": "NEET-C11-BIO-CELL-FC004",
+      "front": "What are the dimensions and characteristics of Mycoplasma according to NCERT?",
+      "back": "Size: 0.3 \u03bcm in length; smallest living cells; completely lack a cell wall; can survive without oxygen.",
+      "explanation": "Mycoplasmas are the smallest known living organisms (0.3 \u00b5m). In contrast, typical bacteria are 3 to 5 \u00b5m in size, and PPLO (Pleuro Pneumonia Like Organisms) are about 0.1 \u00b5m.",
+      "category": "Fact Recall",
+      "difficulty": "Medium",
+      "tags": [
+        "Prokaryotes",
+        "Mycoplasma",
+        "Dimensions"
+      ],
+      "neetPriority": "High",
+      "sourceType": "NCERT Chapter 8",
+      "commonTrap": "Students often swap dimensions of Mycoplasma (0.3 \u00b5m) and PPLO (0.1 \u00b5m) or assume Mycoplasma has a peptidoglycan wall (it has NONE)."
+    },
+    {
+      "id": "NEET-C11-BIO-CELL-FC005",
+      "front": "Comparison: Prokaryotic Ribosome vs Eukaryotic Ribosome",
+      "back": "Prokaryotic: 70S (50S + 30S sub-units); Eukaryotic: 80S (60S + 40S sub-units).",
+      "explanation": "The 'S' stands for Svedberg unit (sedimentation coefficient), an indirect measure of density and size. Mitochondria and chloroplasts inside eukaryotes contain 70S ribosomes.",
+      "category": "Table / Comparison",
+      "difficulty": "Easy",
+      "tags": [
+        "Ribosomes",
+        "Sedimentation"
+      ],
+      "neetPriority": "High",
+      "table": "<table class='data-table'><thead><tr><th>Feature</th><th>Prokaryotes</th><th>Eukaryotes</th></tr></thead><tbody><tr><td>Type</td><td>70S</td><td>80S (cytosol), 70S (organelles)</td></tr><tr><td>Subunits</td><td>50S + 30S</td><td>60S + 40S</td></tr><tr><td>Site of assembly</td><td>Cytoplasm</td><td>Nucleolus</td></tr></tbody></table>",
+      "commonTrap": "Svedberg units are NOT additive: 50S + 30S = 70S (not 80S), and 60S + 40S = 80S (not 100S)."
+    },
+    {
+      "id": "NEET-C11-BIO-CELL-FC006",
+      "front": "What are Mesosomes in bacteria and what are their major physiological functions?",
+      "back": "Membranous extensions of the plasma membrane (vesicles, tubules, lamellae). Functions: Cell wall formation, DNA replication and distribution to daughter cells, respiration, and secretion.",
+      "explanation": "Mesosomes also increase the surface area of the plasma membrane and enzymatic content. They are characteristic extensions found primarily in Gram-positive bacteria.",
+      "category": "Core Concept",
+      "difficulty": "Medium",
+      "tags": [
+        "Prokaryote",
+        "Mesosome",
+        "NCERT"
+      ],
+      "neetPriority": "High",
+      "commonTrap": "Mesosomes do NOT contain 80S ribosomes or membrane-bound organelles; they are simply invaginations of the bacterial plasma membrane."
+    },
+    {
+      "id": "NEET-C11-BIO-CELL-FC007",
+      "front": "What is the detailed biochemical composition of the human erythrocyte (RBC) membrane?",
+      "back": "Approximately 52% Protein and 40% Lipid, along with 8% Carbohydrates.",
+      "explanation": "The ratio of protein to lipid varies in different cell types, but the erythrocyte membrane ratio (52% protein, 40% lipid) is an explicit NCERT factual question.",
+      "category": "Fact Recall",
+      "difficulty": "Medium",
+      "tags": [
+        "Plasma Membrane",
+        "RBC",
+        "NCERT Figures"
+      ],
+      "neetPriority": "High",
+      "commonTrap": "Do not swap the numbers! Protein is greater (52%) than Lipid (40%). Memory trick: 'P' comes after 'L', but Protein has the higher percentage (52 > 40)."
+    },
+    {
+      "id": "NEET-C11-BIO-CELL-FC008",
+      "front": "According to the Fluid Mosaic Model (Singer & Nicolson, 1972), what provides fluidity to the membrane?",
+      "back": "The quasi-fluid nature of lipids enables lateral movement of proteins within the overall bilayer.",
+      "explanation": "This ability to move within the membrane is measured as its fluidity. Fluidity is essential for cell growth, formation of intercellular junctions, secretion, endocytosis, and cell division.",
+      "category": "Core Concept",
+      "difficulty": "Medium",
+      "tags": [
+        "Fluid Mosaic Model",
+        "Singer-Nicolson"
+      ],
+      "neetPriority": "High",
+      "commonTrap": "Proteins cannot flip-flop easily (transverse diffusion is rare), whereas lipids readily exhibit lateral diffusion and occasional flip-flop."
+    },
+    {
+      "id": "NEET-C11-BIO-CELL-FC009",
+      "front": "Statement Analysis: Which components of the endomembrane system function in a coordinated manner?",
+      "back": "Endoplasmic Reticulum (ER), Golgi apparatus, Lysosomes, and Vacuoles.",
+      "explanation": "The endomembrane system includes organelles whose functions are coordinated. Since the functions of mitochondria, chloroplasts, and peroxisomes are NOT coordinated with these components, they are NOT considered part of the endomembrane system.",
+      "category": "Assertion / Statement",
+      "difficulty": "Medium",
+      "tags": [
+        "Endomembrane System",
+        "Organelles"
+      ],
+      "neetPriority": "High",
+      "commonTrap": "Peroxisomes, Mitochondria, and Chloroplasts are frequently inserted into NEET multiple-choice options as distractors. Remember: G-E-L-V (Golgi, ER, Lysosome, Vacuole)."
+    },
+    {
+      "id": "NEET-C11-BIO-CELL-FC010",
+      "front": "What are the primary functional differences between Rough ER (RER) and Smooth ER (SER)?",
+      "back": "RER: Bears ribosomes, actively involved in protein synthesis and secretion. SER: Lacks ribosomes, major site for synthesis of lipids and steroidal hormones.",
+      "explanation": "RER is continuous with the outer membrane of the nucleus. In animal cells, steroidal hormones (like estrogen, testosterone, cortisol) are synthesized in the SER.",
+      "category": "Core Concept",
+      "difficulty": "Easy",
+      "tags": [
+        "ER",
+        "RER",
+        "SER"
+      ],
+      "neetPriority": "High",
+      "commonTrap": "Steroid hormones are lipophilic molecules synthesized in the SER, NOT RER."
+    },
+    {
+      "id": "NEET-C11-BIO-CELL-FC011",
+      "front": "Which organelle is the important site of formation of glycoproteins and glycolipids?",
+      "back": "Golgi apparatus.",
+      "explanation": "Camillo Golgi (1898) first observed densely stained reticular structures near the nucleus. Materials to be packaged in the form of vesicles from the ER fuse with the cis (forming) face and exit through the trans (maturing) face after glycosylation.",
+      "category": "Core Concept",
+      "difficulty": "Easy",
+      "tags": [
+        "Golgi Apparatus",
+        "Glycosylation"
+      ],
+      "neetPriority": "High",
+      "commonTrap": "Synthesis of the core polypeptide occurs on ribosomes/RER, but glycosidation/glycosylation into glycoprotein/glycolipid occurs in the Golgi cisternae."
+    },
+    {
+      "id": "NEET-C11-BIO-CELL-FC012",
+      "front": "What type of enzymes are present in lysosomes, and at what pH are they maximally active?",
+      "back": "Hydrolytic enzymes (hydrolases - lipases, proteases, carbohydrases, nucleases); active at acidic pH (approx. pH 5).",
+      "explanation": "The isolated lysosomal vesicles are rich in almost all types of hydrolytic enzymes capable of digesting carbohydrates, proteins, lipids, and nucleic acids at acidic pH maintained by H+ pumps.",
+      "category": "Fact Recall",
+      "difficulty": "Medium",
+      "tags": [
+        "Lysosomes",
+        "Hydrolases"
+      ],
+      "neetPriority": "High",
+      "commonTrap": "Lysosomal enzymes do not function optimally at neutral or alkaline pH; cytosol is ~7.2, protecting the cell if one lysosome leaks."
+    },
+    {
+      "id": "NEET-C11-BIO-CELL-FC013",
+      "front": "What is the single semi-permeable membrane bounding the plant vacuole, and what is its transport role?",
+      "back": "Tonoplast. It facilitates the transport of ions and other materials against concentration gradients into the vacuole.",
+      "explanation": "Hence, the concentration of ions and other materials is significantly higher in the vacuolar sap than in the cytoplasm. In Amoeba, the contractile vacuole is important for excretion and osmoregulation.",
+      "category": "Core Concept",
+      "difficulty": "Medium",
+      "tags": [
+        "Vacuole",
+        "Tonoplast",
+        "Plant Cell"
+      ],
+      "neetPriority": "High",
+      "commonTrap": "The transport across the tonoplast into the vacuole is ACTIVE, making vacuolar ion concentration higher than cytosol."
+    },
+    {
+      "id": "NEET-C11-BIO-CELL-FC014",
+      "front": "Explain the structural and genetic autonomy of Mitochondria.",
+      "back": "Mitochondria possess their own single circular dsDNA molecule, a few RNA molecules, 70S ribosomes, and divide by fission.",
+      "explanation": "Because they synthesize some of their own proteins but still rely on nuclear DNA for others, they are called semi-autonomous organelles.",
+      "category": "Core Concept",
+      "difficulty": "Medium",
+      "tags": [
+        "Mitochondria",
+        "Semi-autonomous"
+      ],
+      "neetPriority": "High",
+      "commonTrap": "Mitochondrial DNA is circular (prokaryotic-like), NOT linear. Ribosomes are 70S, NOT 80S."
+    },
+    {
+      "id": "NEET-C11-BIO-CELL-FC015",
+      "front": "What are Cristae in mitochondria and what is their functional advantage?",
+      "back": "Infoldings of the inner mitochondrial membrane towards the matrix. Functional advantage: substantially increases the surface area for ETS and ATP-synthase complexes.",
+      "explanation": "The outer membrane forms a continuous limiting boundary, while the inner membrane has numerous infoldings called cristae (singular: crista).",
+      "category": "Diagram / Image Based",
+      "difficulty": "Easy",
+      "tags": [
+        "Mitochondria",
+        "Cristae"
+      ],
+      "neetPriority": "High",
+      "commonTrap": "Do not confuse cristae (mitochondrial infoldings) with cisternae (flattened sacs of Golgi apparatus or ER)."
+    },
+    {
+      "id": "NEET-C11-BIO-CELL-FC016",
+      "front": "Classification of Plastids based on stored nutrients: Amyloplasts, Elaioplasts, and Aleuroplasts.",
+      "back": "Amyloplasts: store carbohydrates (starch, e.g., potato); Elaioplasts: store oils and fats; Aleuroplasts: store proteins.",
+      "explanation": "These are non-pigmented leucoplasts. Chromoplasts contain fat-soluble carotenoid pigments (carotene, xanthophylls), giving yellow, orange, or red color.",
+      "category": "Table / Comparison",
+      "difficulty": "Easy",
+      "tags": [
+        "Plastids",
+        "Leucoplasts"
+      ],
+      "neetPriority": "High",
+      "table": "<table class='data-table'><thead><tr><th>Leucoplast</th><th>Stored Reserve</th><th>Classic Example</th></tr></thead><tbody><tr><td>Amyloplast</td><td>Starch / Carbohydrates</td><td>Potato tuber</td></tr><tr><td>Elaioplast</td><td>Oils & Fats</td><td>Castor / Mustard seeds</td></tr><tr><td>Aleuroplast</td><td>Proteins</td><td>Maize aleurone layer</td></tr></tbody></table>",
+      "memoryTrick": "Amy loves carbs (Amyloplast), Elaio likes oils (Elaioplast), Aleuro stores protein (Aleuroplast)."
+    },
+    {
+      "id": "NEET-C11-BIO-CELL-FC017",
+      "front": "What is the structural arrangement of microtubules in eukaryotic Cilia/Flagella vs Centriole?",
+      "back": "Cilia / Flagella axoneme: (9 + 2) doublet array; Centriole: (9 + 0) triplet array without central microtubules.",
+      "explanation": "Cilia and flagella emerge from centriole-like structures called basal bodies. The axoneme possesses 9 doublets of radially arranged peripheral microtubules and one pair of central microtubules.",
+      "category": "Core Concept",
+      "difficulty": "Hard",
+      "tags": [
+        "Cytoskeleton",
+        "Microtubules",
+        "Centriole"
+      ],
+      "neetPriority": "High",
+      "commonTrap": "Cilia/Flagella = 9 + 2 (doublets). Centriole = 9 + 0 (cartwheel structure made of tubulin triplets, no central hub microtubules)."
+    },
+    {
+      "id": "NEET-C11-BIO-CELL-FC018",
+      "front": "Who discovered chromatin and why was it named so?",
+      "back": "Flemming discovered chromatin; named so because of its ability to be stained strongly by basic dyes (e.g., acetocarmine, basic fuchsin).",
+      "explanation": "The interphase nucleus has a loose and indistinct network of nucleoprotein fibers called chromatin, which condenses into distinct chromosomes during cell division.",
+      "category": "Fact Recall",
+      "difficulty": "Medium",
+      "tags": [
+        "Nucleus",
+        "Chromatin",
+        "Flemming"
+      ],
+      "neetPriority": "Medium",
+      "commonTrap": "Robert Brown discovered the nucleus (1831), but Flemming gave the name 'chromatin'."
+    },
+    {
+      "id": "NEET-C11-BIO-CELL-FC019",
+      "front": "What is the specific function of the Nucleolus?",
+      "back": "Site for active ribosomal RNA (rRNA) synthesis.",
+      "explanation": "The nucleolus is not a membrane-bound structure; its content is continuous with the rest of the nucleoplasm. Larger and more numerous nucleoli are present in cells actively carrying out protein synthesis.",
+      "category": "Core Concept",
+      "difficulty": "Easy",
+      "tags": [
+        "Nucleolus",
+        "rRNA"
+      ],
+      "neetPriority": "High",
+      "commonTrap": "The nucleolus is NOT membrane-bound! Do not mark it as a single-membrane or double-membrane organelle."
+    },
+    {
+      "id": "NEET-C11-BIO-CELL-FC020",
+      "front": "Classification of Chromosomes based on the position of Centromere: Metacentric, Sub-metacentric, Acrocentric, Telocentric.",
+      "back": "Metacentric: Middle centromere (two equal arms, V-shape); Sub-metacentric: Slightly away from middle (one shorter 'p' arm, one longer 'q' arm, L-shape); Acrocentric: Situated close to its end (one extremely short arm, one very long arm, J-shape); Telocentric: Terminal centromere (i-shape).",
+      "explanation": "Every chromosome essentially has a primary constriction or centromere on the sides of which disc-shaped structures called kinetochores are present.",
+      "category": "Core Concept",
+      "difficulty": "Medium",
+      "tags": [
+        "Chromosomes",
+        "Centromere"
+      ],
+      "neetPriority": "High",
+      "table": "<table class='data-table'><thead><tr><th>Type</th><th>Centromere Position</th><th>Anaphase Shape</th></tr></thead><tbody><tr><td>Metacentric</td><td>Middle (equal arms)</td><td>V - shape</td></tr><tr><td>Sub-metacentric</td><td>Near middle (unequal)</td><td>L - shape</td></tr><tr><td>Acrocentric</td><td>Near one end</td><td>J - shape</td></tr><tr><td>Telocentric</td><td>Terminal tip</td><td>I - shape</td></tr></tbody></table>"
+    },
+    {
+      "id": "NEET-C11-BIO-CELL-FC021",
+      "front": "What are Satellite chromosomes (SAT chromosomes) and Secondary constrictions?",
+      "back": "A few chromosomes have non-staining secondary constrictions at a constant location, giving the appearance of a small fragment called a satellite.",
+      "explanation": "Secondary constrictions are non-staining regions distinct from the primary constriction (centromere). The satellite region is distal to the secondary constriction (e.g., human chromosomes 13, 14, 15, 21, 22).",
+      "category": "Fact Recall",
+      "difficulty": "Hard",
+      "tags": [
+        "Chromosomes",
+        "Satellite"
+      ],
+      "neetPriority": "Medium",
+      "commonTrap": "Secondary constriction does NOT contain the centromere or kinetochore. The centromere is strictly the primary constriction."
+    },
+    {
+      "id": "NEET-C11-BIO-CELL-FC022",
+      "front": "NEET Trap: Are Microbodies present in both plant and animal cells?",
+      "back": "Yes. Microbodies are membrane-bound minute vesicles containing various enzymes that are present in both plant and animal cells.",
+      "explanation": "Examples of microbodies include peroxisomes (involved in photorespiration in plants and peroxide detoxification) and glyoxysomes (glyoxylate cycle in germinating fat seeds).",
+      "category": "NEET Trap",
+      "difficulty": "Medium",
+      "tags": [
+        "Microbodies",
+        "Peroxisomes"
+      ],
+      "neetPriority": "Medium",
+      "commonTrap": "Students often assume microbodies are exclusive to plants or exclusive to animals. NCERT explicitly states: 'Many membrane bound minute vesicles called microbodies that contain various enzymes are present in both plant and animal cells.'"
+    },
+    {
+      "id": "NEET-C11-BIO-CELL-FC023",
+      "front": "What is the Middle Lamella composed of and what is its physiological role?",
+      "back": "Composed mainly of Calcium pectate (and Magnesium pectate). It glues or cements the different neighbouring cells together.",
+      "explanation": "When fruit ripens, the dissolution of calcium pectate in the middle lamella by pectinase enzyme causes the characteristic softening of the fruit.",
+      "category": "Core Concept",
+      "difficulty": "Easy",
+      "tags": [
+        "Cell Wall",
+        "Middle Lamella"
+      ],
+      "neetPriority": "High",
+      "commonTrap": "Primary wall is composed of cellulose, hemicellulose and pectin. The middle lamella specifically is made of calcium pectate."
+    },
+    {
+      "id": "NEET-C11-BIO-CELL-FC024",
+      "front": "Assertion: The nuclear pore is the passage through which movement of RNA and protein molecules takes place in both directions.",
+      "back": "True. Nuclear pores are formed by the fusion of outer and inner nuclear membranes.",
+      "explanation": "The nuclear envelope consists of two parallel membranes separated by the perinuclear space (10 to 50 nm). At specific places, nuclear pores permit bidirectional nucleocytoplasmic transport (e.g., mRNA exported, ribosomal proteins imported).",
+      "category": "Assertion / Statement",
+      "difficulty": "Medium",
+      "tags": [
+        "Nuclear Pore",
+        "Transport"
+      ],
+      "neetPriority": "High",
+      "commonTrap": "Movement through nuclear pores is BIDIRECTIONAL, not unidirectional."
+    },
+    {
+      "id": "NEET-C11-BIO-CELL-FC025",
+      "front": "High-Yield Summary: Which cellular structures are non-membrane bound?",
+      "back": "1. Ribosomes (both 70S and 80S)\n2. Centrosome / Centrioles\n3. Nucleolus\n4. Inclusion bodies (e.g., phosphate granules, cyanophycean granules, glycogen granules).",
+      "explanation": "All the above structures lack any phospholipid membrane boundary. In contrast, lysosomes and vacuoles are single-membrane bound; mitochondria, chloroplasts, and nucleus are double-membrane bound.",
+      "category": "High-Yield Rapid Revision",
+      "difficulty": "Easy",
+      "tags": [
+        "Membranes",
+        "Rapid Revision"
+      ],
+      "neetPriority": "High",
+      "memoryTrick": "No-Membrane Club: 'R-C-N-I' -> Ribosome, Centriole, Nucleolus, Inclusion bodies."
+    }
+  ]
+}
