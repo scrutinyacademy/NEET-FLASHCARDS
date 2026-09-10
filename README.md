@@ -13,7 +13,7 @@ The **Scrutiny Academy NEET Flashcards Platform** is a mobile-first, high-yield 
 
 ### Core Standard & The "Target 180" Rule
 * **Target per chapter:** Exactly 180 high-yield, NCERT-grounded flashcards per chapter.
-* **Transparent Published Counts:** The user interface displays **real published counts** (`Published: X / 180`). It strictly never invents cards or shows fabricated completion counters. Unpopulated chapters display `Published: 0 / 180` with a clean `CONTENT COMING SOON` badge.
+* **Transparent Published Counts:** The user interface displays **real published counts** (`Published: X / chapter target`). It strictly never invents cards or shows fabricated completion counters. Unpopulated chapters display a zero count with a clean `CONTENT COMING SOON` badge.
 * **Zero Fabrication Academic Standard:**
   * 100% verified concepts, definitions, and equations.
   * No invented page numbers or fabricated NCERT quotes.
@@ -34,17 +34,16 @@ The **Scrutiny Academy NEET Flashcards Platform** is a mobile-first, high-yield 
 ├── README.md                    # Platform documentation & publishing guide
 │
 ├── assets/
-│   ├── logo/
-│   │   └── logo.svg             # Official Scrutiny Academy circular logo (SA + Script)
-│   └── qr/
-│       └── upi-qr.svg           # Official UPI QR Code (Pramod Sharma, iampramodsharma02-1@oksbi)
+│   └── logo/
+│       └── logo.jpg             # Official Scrutiny Academy circular logo
 │
 ├── data/
 │   ├── catalog.json             # Comprehensive curriculum map (83 chapters across Class 11 & 12)
 │   └── neet/
 │       ├── class11/
 │       │   ├── biology/
-│       │   │   └── cell-the-unit-of-life.json           # 25 Published High-Yield Cards
+│       │   │   ├── cell-the-unit-of-life.json           # 250 NCERT Active-Recall Cards
+│       │   │   └── biomolecules.json                    # 250 NCERT Active-Recall Cards
 │       │   ├── physics/
 │       │   │   └── units-and-measurements.json         # 15 Published High-Yield Cards
 │       │   └── chemistry/
@@ -53,10 +52,6 @@ The **Scrutiny Academy NEET Flashcards Platform** is a mobile-first, high-yield 
 │           ├── biology/
 │           ├── physics/
 │           └── chemistry/
-│
-└── tools/
-    ├── content-manager.html     # Browser-based JSON validator, formatter, and exporter
-    └── flashcard-validator.html # Academic auditor with fuzzy duplicate detection & schema verification
 ```
 
 ---
@@ -124,7 +119,6 @@ All user progress, daily goals, study streaks, and bookmarks are persistently sa
 * **YouTube Channel:** [https://m.youtube.com/@ScrutinyAcademy](https://m.youtube.com/@ScrutinyAcademy)
 * **Instagram Handle:** [https://www.instagram.com/scrutinyacademy](https://www.instagram.com/scrutinyacademy)
 * **Help Desk Email:** [scrutinyacademy@gmail.com](mailto:scrutinyacademy@gmail.com)
-* **Official UPI Contribution:** `iampramodsharma02-1@oksbi` (Pramod Sharma)
 
 ---
 
@@ -143,9 +137,8 @@ Ensure your folder contains:
 * `app.js`
 * `manifest.webmanifest`
 * `sw.js`
-* `assets/` (with `logo/` and `qr/`)
+* `assets/` (with the official `logo/`)
 * `data/` (with `catalog.json` and chapter JSONs)
-* `tools/` (with `content-manager.html` and `flashcard-validator.html`)
 
 ### Step 3: Commit and Push to GitHub
 ```bash

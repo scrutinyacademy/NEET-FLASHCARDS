@@ -1,17 +1,17 @@
 /**
  * Scrutiny Academy Service Worker - Cache-first for core assets
  */
-const CACHE_NAME = 'scrutiny-neet-cache-v1';
+const CACHE_NAME = 'scrutiny-neet-cache-v2';
 const PRECACHE_URLS = [
   './',
   './index.html',
   './styles.css',
   './app.js',
   './manifest.webmanifest',
-  './assets/logo/logo.svg',
-  './assets/qr/upi-qr.svg',
+  './assets/logo/logo.jpg',
   './data/catalog.json',
   './data/neet/class11/biology/cell-the-unit-of-life.json',
+  './data/neet/class11/biology/biomolecules.json',
   './data/neet/class11/physics/units-and-measurements.json',
   './data/neet/class11/chemistry/some-basic-concepts-of-chemistry.json'
 ];

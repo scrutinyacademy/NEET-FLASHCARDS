@@ -7,7 +7,7 @@
  * - NeetDataService: Modular lazy loading of chapter JSON files
  * - UserProgressStore: LocalStorage-driven spaced repetition & streak tracking
  * - Mobile-First Touch & Keyboard Interaction Controller
- * - 100% Real Published Count Guarantee (X / 180)
+ * - 100% Real Published Count Guarantee (X / chapter target)
  */
 
 // Global Configuration
@@ -596,13 +596,6 @@ class ScrutinyApp {
       }
     });
 
-    // Copy UPI ID Button
-    document.getElementById('copy-upi-btn').addEventListener('click', () => {
-      navigator.clipboard.writeText('iampramodsharma02-1@oksbi').then(() => {
-        alert('UPI ID copied to clipboard: iampramodsharma02-1@oksbi');
-      });
-    });
-
     // Flashcard Study Interaction & Keyboard Shortcuts
     this.bindStudyEvents();
 
@@ -890,7 +883,7 @@ class ScrutinyApp {
 
     document.getElementById('cfg-subject-name').textContent = `${chMeta.subjectName} • Class ${chMeta.class}`;
     document.getElementById('cfg-chapter-title').textContent = chMeta.title;
-    document.getElementById('cfg-available-count').textContent = `Published: ${chMeta.publishedCount} / 180 cards`;
+    document.getElementById('cfg-available-count').textContent = `Published: ${chMeta.publishedCount} / ${chMeta.targetFlashcards} cards`;
 
     document.getElementById('config-modal').removeAttribute('hidden');
   }
