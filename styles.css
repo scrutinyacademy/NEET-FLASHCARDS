@@ -1,3 +1,7 @@
+/* Ensure HTML hidden attribute takes precedence over display: flex */
+[hidden], .study-modal[hidden], .config-modal[hidden], .summary-modal[hidden], .search-tray[hidden] {
+  display: none !important;
+}
 /* ==========================================================================
    SCRUTINY ACADEMY - NEET UG FLASHCARDS STYLESHEET
    Brand: LEARN • UNDERSTAND • PRACTICE • MASTER
